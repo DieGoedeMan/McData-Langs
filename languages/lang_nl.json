@@ -1,0 +1,285 @@
+{
+    "prefix": "Hey daar! Mijn prefix hier is `{prefix}`",
+    "pending": "Laden...",
+    "errors": {
+        "errText": "Er ging iets fout!",
+        "noPerms": "Je hebt hier geen permissies voor!"
+    },
+    "trans": {
+        "server": {
+            "true": "<:online:779741124557668382>",
+            "false": "<:dnd:779741202786418698>"
+        },
+        "bad": "Slecht",
+        "good": "Goed",
+        "true": "Ja",
+        "false": "Nee",
+        "block": "Block",
+        "empty": "Leeg",
+        "__MATERIAL": "MATERIALS",
+        "none": "`-`",
+        "dirt": "Aarde",
+        "plant": "Plant",
+        "rock": "Steen",
+        "unknown": "`-`",
+        "web": "Web",
+        "wood": "Hout",
+        "wool": "Wol",
+        "__ENTITIES": "ENTITIES",
+        "Blocks": "Blokken",
+        "Hostile mobs": "Agressieve Mobs",
+        "Passive mobs": "Passieve Mobs",
+        "Projectiles": "Projectiel",
+        "UNKNOWN": "`-`",
+        "Vehicles": "Transport"
+    },
+    "settings": {
+        "title": "Instellingen",
+        "langList": "Beschikbare Talen",
+        "lang": "Taal:",
+        "type": "Type:",
+        "value": "Waarde:",
+        "name": "Naam:",
+        "success": {
+            "newLang": "De taal is aangepast naar **`{lang}`**!",
+            "prefixReset": "De prefix is gerest naar: : ",
+            "newPrefix": "De prefix is aangepast naar: "
+        },
+        "errors": {
+            "noLang": "Geen taal meegegven!",
+            "notExist": "De meegegeven taal is niet beschikbaar!",
+            "noPrefix": "Geen prefix meegegeven!"
+        }
+    },
+    "botinfo": {
+        "requester": "Opgevraagd Door: {PERSON}",
+        "choose": "**Kies het gewilde menu!**",
+        "title": {
+            "title": "🏠 • Botinfo Menu",
+            "menu": "Botinfo Menu",
+            "botinfo": "Botinfo",
+            "specs": "Specificaties",
+            "uptime": "Uptime"
+        },
+        "bi": {
+            "title": "🤖 • Botinfo",
+            "name": "Bot Naam:",
+            "version": "Versie:",
+            "createdOn": "Gemaakt Op:",
+            "lib": "Bibliotheek:",
+            "djsVersion": "Discord.js Versie:"
+        },
+        "specs": {
+            "title": "🛠 • Specificaties",
+            "mem": "Mem Gebruik:",
+            "users": "Gebruikers",
+            "servers": "Servers",
+            "cpu": "CPU Gebruik",
+            "arch": "Arch"
+        },
+        "uptime": "Huidige Uptime",
+        "time": "Sorry, de 2 minuten zijn over..."
+    },
+    "biome": {
+        "err": {
+            "noBiome": "Deze biome bestaat niet!",
+            "noBiomeGiven": "Geen biome meegegeven!"
+        },
+        "title": "Biome | {biome}",
+        "id": "ID:",
+        "rainfall": "Regenval:",
+        "temperature": "Temperatuur:",
+        "listTitle": "Biome Lijst"
+    },
+    "block": {
+        "err": {
+            "noBlockGiven": "Geen blok meegegeven!",
+            "noBlock": "Dit blok bestaat niet!"
+        },
+        "title": "Blok | {block}",
+        "id": "ID:",
+        "hardness": "Hardheid:",
+        "stackSize": "Stack Groote:",
+        "material": "Materiaal:",
+        "transparant": "Transparant:",
+        "filterLight": "Gefilterd Licht:",
+        "emitLight": "Uitgezonden Licht:",
+        "boundingBox": "Omsluitend Kader:",
+        "diggable": "Hakbaar:",
+        "harvestTools": "Gereedschap:"
+    },
+    "data": {
+        "title": "Data Information",
+        "info": [
+            "**Breedte:** De breedte van een entiteit.",
+            "**Categorie:** De categorie van een item.",
+            "**Effectieve Kwaliteit:** De effectieve kwaliteit van voedsel.",
+            "**Gefilterd Licht:** De hoeveelheid licht wat wordt gefilterd.",
+            "**Hakbaar:** Of je een blok weg kan hakken.",
+            "**Hardheid:** De hardheid van een blok.",
+            "**Hoogte:** De hoogte van een entiteit.",
+            "**ID:** De unieke identificatie voor een biome .",
+            "**Levensduur:** Hoe vaak je gereedschap kan gebruiken (Zonder betoveringen).",
+            "**Materiaal:** Het materiaal van een blok.",
+            "**Omsluitend Kader:** Het omsluitende kader van een blok.",
+            "**Regenval:** De hoeveelheid regen in een biome.",
+            "**Soort:** Of een effect goed of slecht is.",
+            "**Stack Groote:** Hoeveel items je in 1 slot kan houden.",
+            "**Temperatuur:** Een indicator voor de temperatuur in een biome.",
+            "**Transparant:** Of een blok transparant is.",
+            "**Uitgezonden Licht:** De hoeveelheid licht wat wordt uitgezonden.",
+            "**Verzadiging:** De verzadiging wat je van voedsel krijgt.",
+            "**Verzadiging Verhouding:** De verzadigingsverhouding van voedsel.",
+            "**Voedsel Punten:** Het aantal voedselpunten wat je krijgt."
+        ]
+    },
+    "effect": {
+        "err": {
+            "noEffect": "Dit effect bestaat niet!",
+            "noEffectGiven": "Geen effect meegegeven!"
+        },
+        "title": "Effect | {effect}",
+        "name": "Naam:",
+        "id": "ID:",
+        "type": "Type:",
+        "listTitle": "Effect Lijst"
+    },
+    "entity": {
+        "err": {
+            "noEntity": "Dit entiteit bestaat niet!",
+            "noEntityGiven": "Geen entiteit meegegeven!"
+        },
+        "title": "Entiteit | {entity}",
+        "id": "ID:",
+        "width": "Breedte",
+        "height": "Hoogte",
+        "category": "Categorie",
+        "listTitle": "Entity Lijst"
+    },
+    "food": {
+        "err": {
+            "noFood": "Dit voedsel bestaat niet!",
+            "noFoodGiven": "Geen voedsel meegegeven!"
+        },
+        "title": "Voedsel | {food}",
+        "id": "ID:",
+        "stackSize": "Stack Groote:",
+        "foodPoints": "Voedsel Punten",
+        "saturation": "Verzadiging:",
+        "satRatio": "Verzadiging Verhouding:",
+        "effectiveQuality": "Effectieve Kwaliteit",
+        "listTitle": "Voedsel Lijst"
+    },
+    "help": {
+        "title": "Help",
+        "note": "_[] = Verplicht, <> = Optioneel, / = Splitser, \"\" = Exact Argument_",
+        "desc": "Beschrijving:",
+        "cat": "Categorie:",
+        "aliases": "Aliases:",
+        "usage": "Gebruik:",
+        "general": "Algemeen:",
+        "info": "Info:",
+        "admin": "Beheerder:",
+        "cmd": {
+            "general": {
+                "title": "Help | {cmd}",
+                "err": "Dit command bestaat niet!"
+            },
+            "settings": "De beschikbare instellingen.",
+            "botinfo": "Informatie over mij.",
+            "help": "Ben je echt zo dom..?",
+            "links": "Om de linkjes te krijgen.",
+            "ping": "Als je mijn ping wil weten.",
+            "biome": "Krijg informatie over een biome.",
+            "block": "Krijg informatie over een blok.",
+            "datainfo": "Krijg informatie over de gebruikte waarden.",
+            "effect": "Krijg informatie over een effect.",
+            "entity": "Krijg informatie over een entiteit.",
+            "food": "Krijg informatie over voedsel.",
+            "instruments": "Krijg informatie over een instrument.",
+            "item": "Krijg informatie over een item.",
+            "server": "Krijg informatie over een Minecraft server.",
+            "version": "Krijg informatie over een Minecraft verie.",
+            "head": "Laat het hoofd van een Minecraft speler zien.",
+            "skin": "Laat de skin van een Minecraft speler zien.",
+            "history": "Laat de vorige gebruikersnamen van een Minecraft speler zien."
+        }
+    },
+    "history": {
+        "err": {
+            "noUser": "Dit gebruikersnaam bestaat niet!",
+            "noUserGiven": "Geen Minecraft naam meegegeven!",
+            "default": "Er ging iets fout!"
+        },
+        "title": "Mc Naam Geschiedenis | {name}"
+    },
+    "instruments": {
+        "err": {
+            "noInstrumentGiven": "Geen instrument meegegeven!",
+            "noInstrument": "Dit instrument Bestaat niet!"
+        },
+        "title": "Instrument | {ins}",
+        "name": "Naam:",
+        "id": "ID:",
+        "listTitle": "Instrumenten Lijst"
+    },
+    "item": {
+        "err": {
+            "noItem": "Dit item bestaat niet!",
+            "noItemGiven": "Geen item meegegeven!"
+        },
+        "title": "Item | {item}",
+        "id": "ID:",
+        "stacksize": "Stack Groote:",
+        "dura": "Levensduur:",
+        "listTitle": "Item Lijst",
+        "listDesc": "Helaas in verband met de enorme hoeveelheid items (950+), is dit command niet beschikbaar..., **TOT NU TOE**. Wellicht in de toekomst!"
+    },
+    "links": {
+        "title": "Links",
+        "invite": "Invite",
+        "donate": "Doneer",
+        "support": "Hulp",
+        "click": "Klik [hier]({link})!"
+    },
+    "ping": {
+        "pending": "Laden...",
+        "ping": "Ping"
+    },
+    "server": {
+        "err": {
+            "noServerGiven": "Geen server-ip meegegeven!",
+            "noServer": "Geen server gevonden met het IP: **`{ip}`**"
+        },
+        "pending": "Data verkrijgen van **`{ip}`**...",
+        "title": "Server | `{ip}`",
+        "port": "Poort:",
+        "version": "Versie:",
+        "online": "Online Spelers:",
+        "max": "Max Spelers:",
+        "protocol": "Protocol:"
+    },
+    "skin": {
+        "err": {
+            "noUser": "Dit gebruikersnaam bestaat niet!",
+            "noUserGiven": "Geen Minecraft naam meegegeven!",
+            "default": "Er ging iets fout!"
+        },
+        "name": "Mc Skin | {name}",
+        "head": "Mc Hoofd | {name}"
+    },
+    "version": {
+        "title": "Versie",
+        "current": "Huidige Versie:",
+        "major": "Hoofdversie:",
+        "version": "Versie:",
+        "type": {
+            "mcVersion": "Mc Versie:",
+            "major": "Hoofdversie:",
+            "version": "Versie:"
+        },
+        "err": {
+            "noValidVersion": "Deze versie bestaat niet!"
+        }
+    }
+}

@@ -1,0 +1,291 @@
+{
+    "prefix": "Hey there! My prefix here is `{prefix}`",
+    "pending": "Loading...",
+    "errors": {
+        "errText": "Something went wrong!",
+        "noPerms": "You don't have the permissions to do this!"
+    },
+    "trans": {
+        "server": {
+            "true": "<:online:779741124557668382>",
+            "false": "<:dnd:779741202786418698>"
+        },
+        "bad": "Bad",
+        "good": "Good",
+        "true": "Yes",
+        "false": "No",
+        "block": "Block",
+        "empty": "Empty",
+        "__MATERIAL": "MATERIALS",
+        "none": "`-`",
+        "dirt": "Dirt",
+        "plant": "Plant",
+        "rock": "Rock",
+        "unknown": "`-`",
+        "web": "Web",
+        "wood": "Wood",
+        "wool": "Wool",
+        "__ENTITIES": "ENTITIES",
+        "Blocks": "Blocks",
+        "Hostile mobs": "Hostile Mobs",
+        "Immobile": "Immobile",
+        "Passive mobs": "Passive Mobs",
+        "UNKNOWN": "`-`",
+        "Vehicles": "Vehicles"
+    },
+    "settings": {
+        "title": "Settings",
+        "langList": "Available Languages",
+        "lang": "Language:",
+        "type": "Type:",
+        "value": "Value:",
+        "name": "Name:",
+        "success": {
+            "newLang": "The language has been succesfully changed to **`{lang}`**!",
+            "prefixReset": "The prefix has been reset to: ",
+            "newPrefix": "The prefix has been changed to: "
+        },
+        "errors": {
+            "noLang": "No language given!",
+            "notExist": "The given language is not available!",
+            "noPrefix": "No prefix given!"
+        }
+    },
+    "botinfo": {
+        "requester": "Requested by: {PERSON}",
+        "choose": "**Choose your desired menu!**",
+        "title": {
+            "title": "🏠 • Botinfo Menu",
+            "menu": "Botinfo Menu",
+            "botinfo": "Botinfo",
+            "specs": "Specifications",
+            "uptime": "Uptime"
+        },
+        "bi": {
+            "title": "🤖 • Botinfo",
+            "name": "Bot Name:",
+            "version": "Version:",
+            "createdOn": "Created On:",
+            "lib": "Library:",
+            "djsVersion": "Discord.js Version:"
+        },
+        "specs": {
+            "title": "🛠 • Specifications",
+            "mem": "Mem Usage:",
+            "users": "Users",
+            "servers": "Servers",
+            "cpu": "CPU Usage",
+            "arch": "Arch"
+        },
+        "uptime": "Current Uptime",
+        "time": "Sorry, the 2 minutes are over..."
+    },
+    "biome": {
+        "err": {
+            "noBiome": "This biome does not exist!",
+            "noBiomeGiven": "No biome given!"
+        },
+        "title": "Biome | {biome}",
+        "id": "ID:",
+        "rainfall": "Rainfall:",
+        "temperature": "Temperature:",
+        "listTitle": "Biome List"
+    },
+    "block": {
+        "err": {
+            "noBlockGiven": "No block given!",
+            "noBlock": "This block does not exist!"
+        },
+        "title": "Block | {block}",
+        "id": "ID:",
+        "hardness": "Hardness:",
+        "stackSize": "Stack Size:",
+        "material": "Material:",
+        "transparant": "Transparant:",
+        "filterLight": "Light Filtered:",
+        "emitLight": "Light Emitted:",
+        "boundingBox": "Bounding Box:",
+        "diggable": "Diggable:",
+        "harvestTools": "Tools:"
+    },
+    "data": {
+        "title": "Data Information",
+        "info": [
+            "**Bouding Box:** The bounding box of a block.",
+            "**Category:** The category of an item.",
+            "**Diggable:** If a block is diggable.",
+            "**Durability:** If a block is diggable.",
+            "**Effective Quality:** The effective quality.",
+            "**Food Points:** The amount of food points.",
+            "**Hardness:** The hardness of a block.",
+            "**Height:** The height of an entity.",
+            "**ID:** The unique identifier for a biome.",
+            "**Light Emited:** The amount of light that gets emitted.",
+            "**Light Filterd:** The amount of light that gets filterd.",
+            "**Material:** The material of a block.",
+            "**Rainfall:** The amount of rain in a biome.",
+            "**Saturation:** The saturation level",
+            "**Saturation Ratio:** The saturation ratio.",
+            "**Stack Size:** The stack size for an item.",
+            "**Temperature:** An indicator for the temperature in a biome.",
+            "**Transparent:** If a block is transparent.",
+            "**Type:** If an effect is good or bad.",
+            "**Width:** The width of an entity."
+        ]
+    },
+    "effect": {
+        "err": {
+            "noEffect": "This effect does not exist!",
+            "noEffectGiven": "No effect given!"
+        },
+        "title": "Effect | {effect}",
+        "name": "Name:",
+        "id": "ID:",
+        "type": "Type:",
+        "listTitle": "Effect List"
+    },
+    "entity": {
+        "err": {
+            "noEntity": "This entity does not exist!",
+            "noEntityGiven": "No entity given!"
+        },
+        "title": "Entity | {entity}",
+        "id": "ID:",
+        "width": "Width",
+        "height": "Height",
+        "category": "Category",
+        "listTitle": "Entity List"
+    },
+    "food": {
+        "err": {
+            "noFood": "This food does not exist!",
+            "noFoodGiven": "No food given!"
+        },
+        "title": "Food | {food}",
+        "id": "ID:",
+        "stackSize": "Stack Size:",
+        "foodPoints": "Food Points",
+        "saturation": "Saturation:",
+        "satRatio": "Saturation Ratio:",
+        "effectiveQuality": "Effective Quality",
+        "listTitle": "Food List"
+    },
+    "help": {
+        "title": "Help",
+        "note": "_[] = Required, <> = Optional, / = Splitter, \"\" = Exact Argument_",
+        "desc": "Description:",
+        "cat": "Category:",
+        "aliases": "Aliases:",
+        "usage": "Usage:",
+        "general": "General:",
+        "info": "Info:",
+        "admin": "Admin:",
+        "cmd": {
+            "general": {
+                "title": "Help | {cmd}",
+                "err": "This command does not exist!"
+            },
+            "settings": "The available settings.",
+            "botinfo": "Information about me.",
+            "help": "Are you actually stupid..?",
+            "links": "To get the links.",
+            "ping": "Let you see my ping.",
+            "biome": "Get information about a biome.",
+            "block": "Get information about a block.",
+            "datainfo": "Get information about the used values.",
+            "effect": "Get information about an effect.",
+            "entity": "Get information about an entity.",
+            "food": "Get information about food.",
+            "instruments": "Get information about an instrument.",
+            "item": "Get information about an item.",
+            "server": "Get information about a Minecraft server.",
+            "version": "Get information about a Minecraft version.",
+            "head": "Shows the Minecraft head of a player.",
+            "skin": "Shows the Minecraft skin from a player",
+            "history": "Shows the previous Minecraft usernames."
+        }
+    },
+    "history": {
+        "err": {
+            "noUser": "This username does not exist!",
+            "noUserGiven": "No Minecraft name given!",
+            "default": "Something went wrong!"
+        },
+        "title": "Mc Name History | {name}"
+    },
+    "instruments": {
+        "err": {
+            "noInstrumentGiven": "No instrument given!",
+            "noInstrument": "This instrument does not exist!"
+        },
+        "title": "Instrument | {ins}",
+        "name": "Name:",
+        "id": "ID:",
+        "listTitle": "Instruments List"
+    },
+    "item": {
+        "err": {
+            "noItem": "This item does not exist!",
+            "noItemGiven": "No item given!"
+        },
+        "title": "Item | {item}",
+        "id": "ID:",
+        "stacksize": "Stacksize",
+        "dura": "Durability:",
+        "listTitle": "Item List",
+        "listDesc": "Unfortunately because of the huge amount of items (950+), this command is not available..., **YET**. Maybe in the future!"
+    },
+    "links": {
+        "title": "Links",
+        "invite": "Invite",
+        "donate": "Donate",
+        "support": "Support",
+        "click": "Click [here]({link})!"
+    },
+    "ping": {
+        "pending": "Loading...",
+        "ping": "Ping"
+    },
+    "recipes": {
+        "err": {
+            "noItem": "No item given!",
+            "noValidItem": "There is no recipe for this item!"
+        }
+    },
+    "server": {
+        "err": {
+            "noServerGiven": "No server-ip given!",
+            "noServer": "No server found with the IP: **`{ip}`**"
+        },
+        "pending": "Getting data from **`{ip}`**...",
+        "title": "Server | `{ip}`",
+        "port": "Port:",
+        "version": "Version:",
+        "online": "Online Players:",
+        "max": "Max Players:",
+        "protocol": "Protocol:"
+    },
+    "skin": {
+        "err": {
+            "noUser": "This username does not exist!",
+            "noUserGiven": "No Minecraft name given!",
+            "default": "Something went wrong!"
+        },
+        "name": "Mc Skin | {name}",
+        "head": "Mc Head | {name}"
+    },
+    "version": {
+        "title": "Version",
+        "current": "Current Version:",
+        "major": "Major Version:",
+        "version": "Version:",
+        "type": {
+            "mcVersion": "Mc Version:",
+            "major": "Major Versioin:",
+            "version": "Version:"
+        },
+        "err": {
+            "noValidVersion": "This version does not exist!"
+        }
+    }
+}
