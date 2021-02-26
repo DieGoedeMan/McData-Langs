@@ -30,4 +30,4 @@ You're able to make changes to an existing language and adding a new language.
 
 Contributing to the repo will be highly appreciated!
 
-### 📢 ***If you have any questions, feel free to ask them on Discord: TheDude#0001***
+### 📢 ***If you have any questions, feel free to ask them on Discord: Exstare#0001***
