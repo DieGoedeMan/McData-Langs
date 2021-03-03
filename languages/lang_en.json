@@ -2,13 +2,15 @@
     "prefix": "Hey there! My prefix here is `{prefix}`",
     "pending": "Loading...",
     "errors": {
-        "errText": "Something went wrong!",
-        "noPerms": "You don't have the permissions to do this!"
+        "errText": "Oh no, something went wrong!",
+        "noPerms": "You don't have the permissions to do this!",
+        "cooldown": "Calm down! Your on cooldown that lasts another `{time} second(s)`!",
+        "blacklist": "Sorry, you're on the blacklist and not able to use me!"
     },
     "trans": {
         "server": {
-            "true": "<:online:779741124557668382>",
-            "false": "<:dnd:779741202786418698>"
+            "true": "<:Ex_online:811565956873584672>",
+            "false": "<:Ex_offline:811565957046468658>"
         },
         "bad": "Bad",
         "good": "Good",
@@ -31,11 +33,15 @@
         "Immobile": "Immobile",
         "Passive mobs": "Passive Mobs",
         "UNKNOWN": "`-`",
-        "Vehicles": "Vehicles"
+        "Vehicles": "Vehicles",
+        "red": "🔴 ➜ Unavailable",
+        "yellow": "🟡 ➜ Some issues",
+        "green": "🟢 ➜ No issues"
     },
     "settings": {
         "title": "Settings",
         "langList": "Available Languages",
+        "prefix": "Prefix:",
         "lang": "Language:",
         "type": "Type:",
         "value": "Value:",
@@ -66,19 +72,23 @@
             "name": "Bot Name:",
             "version": "Version:",
             "createdOn": "Created On:",
-            "lib": "Library:",
-            "djsVersion": "Discord.js Version:"
+            "id": "ID:",
+            "prefix": "Prefix:"
         },
         "specs": {
             "title": "🛠 • Specifications",
             "mem": "Mem Usage:",
-            "users": "Users",
-            "servers": "Servers",
-            "cpu": "CPU Usage",
-            "arch": "Arch"
+            "users": "Users:",
+            "servers": "Servers:",
+            "cpu": "CPU Usage:",
+            "arch": "Arch:",
+            "platform": "Platform:"
         },
-        "uptime": "Current Uptime",
-        "time": "Sorry, the 2 minutes are over..."
+        "uptime": {
+            "title": "⏱ • Uptime",
+            "desc": "Current Uptime"
+        },
+        "time": "Sorry, your time is up! (2m)"
     },
     "biome": {
         "err": {
@@ -108,6 +118,7 @@
         "diggable": "Diggable:",
         "harvestTools": "Tools:"
     },
+    "colors": "Text Colors",
     "data": {
         "title": "Data Information",
         "info": [
@@ -170,6 +181,7 @@
         "effectiveQuality": "Effective Quality",
         "listTitle": "Food List"
     },
+    "formatting": "Text Formatting",
     "help": {
         "title": "Help",
         "note": "_[] = Required, <> = Optional, / = Splitter, \"\" = Exact Argument_",
@@ -177,9 +189,11 @@
         "cat": "Category:",
         "aliases": "Aliases:",
         "usage": "Usage:",
+        "cooldown": "Cooldown:",
         "general": "General:",
         "info": "Info:",
         "admin": "Admin:",
+        "dev": "Developer:",
         "cmd": {
             "general": {
                 "title": "Help | {cmd}",
@@ -202,7 +216,14 @@
             "version": "Get information about a Minecraft version.",
             "head": "Shows the Minecraft head of a player.",
             "skin": "Shows the Minecraft skin from a player",
-            "history": "Shows the previous Minecraft usernames."
+            "history": "Shows the previous Minecraft usernames.",
+            "colorcodes": "Shows the Minecraft colors.",
+            "formatting": "Shows the formatting codes.",
+            "uuid": "Get the UUID of a Minecraft player.",
+            "devhelp": "Are you actually stupid..?",
+            "eval": "Evaluate something.",
+            "blacklist": "Prevents users from using the bot globally.",
+            "servers": "Lists all the servers"
         }
     },
     "history": {
@@ -211,7 +232,9 @@
             "noUserGiven": "No Minecraft name given!",
             "default": "Something went wrong!"
         },
-        "title": "Mc Name History | {name}"
+        "title": "Mc Name History | {name}",
+        "ago": " ago",
+        "first": "First"
     },
     "instruments": {
         "err": {
@@ -230,7 +253,7 @@
         },
         "title": "Item | {item}",
         "id": "ID:",
-        "stacksize": "Stacksize",
+        "stacksize": "Stacksize:",
         "dura": "Durability:",
         "listTitle": "Item List",
         "listDesc": "Unfortunately because of the huge amount of items (950+), this command is not available..., **YET**. Maybe in the future!"
@@ -245,12 +268,6 @@
     "ping": {
         "pending": "Loading...",
         "ping": "Ping"
-    },
-    "recipes": {
-        "err": {
-            "noItem": "No item given!",
-            "noValidItem": "There is no recipe for this item!"
-        }
     },
     "server": {
         "err": {
@@ -274,6 +291,15 @@
         "name": "Mc Skin | {name}",
         "head": "Mc Head | {name}"
     },
+    "uuid": {
+        "err": {
+            "noUser": "No username given!",
+            "noValidUser": "This username does not exist!"
+        },
+        "title": "Username > UUID",
+        "name": "Name:",
+        "id": "UUID:"
+    },
     "version": {
         "title": "Version",
         "current": "Current Version:",
@@ -286,6 +312,36 @@
         },
         "err": {
             "noValidVersion": "This version does not exist!"
+        }
+    },
+    "dev": {
+        "blacklist": {
+            "err": {
+                "noUser": "No user given!",
+                "noValidUser": "No valid user given!",
+                "noId": "No userID given!",
+                "inDb": "This user is already on the blacklist since `{date}`!",
+                "notInDb": "This user isn't on the blacklist!"
+            },
+            "add": "{user} has been added to the blacklist!",
+            "remove": "{user} has been removed from the blacklist!",
+            "list": {
+                "title": "Blacklist"
+            },
+            "search": {
+                "title": "Blacklist | Search",
+                "user": "User:",
+                "id": "ID:",
+                "time": "Time:"
+            }
+        },
+        "eval": {
+            "err": {
+                "noCode": "No code given!",
+                "env": "Do you really think I'm that stupid..?"
+            },
+            "evaluatedFrom": "Evaluated From:",
+            "evaluated": "Evaluated"
         }
     }
 }
