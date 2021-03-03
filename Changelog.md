@@ -1,9 +1,6 @@
 # **McData - Changelog**
 ### *Version explanation: V(Major version).(Minor version).(Bugfixes)*
 
-## **V1.0.0**
-- First commit and setup.
-
 ## **V2.0.0**
 
 **New**
@@ -27,3 +24,6 @@
 - General | Fixed a few translation issues
 - General | Fixed a few typo's (Hey, everyone makes mistakes, so do I
 - General | Fixed footer year
+
+## **V1.0.0**
+- First commit and setup.
