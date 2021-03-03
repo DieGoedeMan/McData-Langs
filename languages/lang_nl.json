@@ -2,13 +2,15 @@
     "prefix": "Hey daar! Mijn prefix hier is `{prefix}`",
     "pending": "Laden...",
     "errors": {
-        "errText": "Er ging iets fout!",
-        "noPerms": "Je hebt hier geen permissies voor!"
+        "errText": "Oh nee, er ging iets fout!",
+        "noPerms": "Je hebt hier geen permissies voor!",
+        "cooldown": "Rustig aan! Je zit op een cooldown voor nog `{time} seconde(n)`!",
+        "blacklist": "Sorry, je staat op de zwarte lijst en kan mij dus niet gebruiken!"
     },
     "trans": {
         "server": {
-            "true": "<:online:779741124557668382>",
-            "false": "<:dnd:779741202786418698>"
+            "true": "<:Ex_online:811565956873584672>",
+            "false": "<:Ex_offline:811565957046468658>"
         },
         "bad": "Slecht",
         "good": "Goed",
@@ -31,12 +33,16 @@
         "Passive mobs": "Passieve Mobs",
         "Projectiles": "Projectiel",
         "UNKNOWN": "`-`",
-        "Vehicles": "Transport"
+        "Vehicles": "Transport",
+        "red": "🔴 ➜ Onbereikbaar",
+        "yellow": "🟡 ➜ Paar problemen",
+        "green": "🟢 ➜ Geen problemen"
     },
     "settings": {
         "title": "Instellingen",
         "langList": "Beschikbare Talen",
         "lang": "Taal:",
+        "prefix": "Prefix:",
         "type": "Type:",
         "value": "Waarde:",
         "name": "Naam:",
@@ -66,19 +72,23 @@
             "name": "Bot Naam:",
             "version": "Versie:",
             "createdOn": "Gemaakt Op:",
-            "lib": "Bibliotheek:",
-            "djsVersion": "Discord.js Versie:"
+            "id": "ID:",
+            "prefix": "Prefix:"
         },
         "specs": {
             "title": "🛠 • Specificaties",
             "mem": "Mem Gebruik:",
-            "users": "Gebruikers",
-            "servers": "Servers",
-            "cpu": "CPU Gebruik",
-            "arch": "Arch"
+            "users": "Gebruikers:",
+            "servers": "Servers:",
+            "cpu": "CPU Gebruik:",
+            "arch": "Arch:",
+            "platform": "Platform:"
         },
-        "uptime": "Huidige Uptime",
-        "time": "Sorry, de 2 minuten zijn over..."
+        "uptime": {
+            "title": "⏱ • Uptime",
+            "desc": "Huidige Uptime"
+        },
+        "time": "Sorry, je tijd is om! (2m)"
     },
     "biome": {
         "err": {
@@ -108,6 +118,7 @@
         "diggable": "Hakbaar:",
         "harvestTools": "Gereedschap:"
     },
+    "colors": "Tekst Kleuren",
     "data": {
         "title": "Data Information",
         "info": [
@@ -170,6 +181,7 @@
         "effectiveQuality": "Effectieve Kwaliteit",
         "listTitle": "Voedsel Lijst"
     },
+    "formatting": "Tekst Formatteren",
     "help": {
         "title": "Help",
         "note": "_[] = Verplicht, <> = Optioneel, / = Splitser, \"\" = Exact Argument_",
@@ -177,9 +189,11 @@
         "cat": "Categorie:",
         "aliases": "Aliases:",
         "usage": "Gebruik:",
+        "cooldown": "Cooldown:",
         "general": "Algemeen:",
         "info": "Info:",
         "admin": "Beheerder:",
+        "dev": "Ontwikkelaar:",
         "cmd": {
             "general": {
                 "title": "Help | {cmd}",
@@ -202,7 +216,14 @@
             "version": "Krijg informatie over een Minecraft verie.",
             "head": "Laat het hoofd van een Minecraft speler zien.",
             "skin": "Laat de skin van een Minecraft speler zien.",
-            "history": "Laat de vorige gebruikersnamen van een Minecraft speler zien."
+            "history": "Laat de vorige gebruikersnamen van een Minecraft speler zien.",
+            "colorcodes": "Laat de Minecraft kleuren zien.",
+            "formatting": "Laat de opmaak codes zien.",
+            "uuid": "Verkrijg de UUID van een Minecraft speler.",
+            "devhelp": "Ben je echt zo dom..?",
+            "eval": "Evalueer iets.",
+            "blacklist": "Voorkomt dat gebruikers de bot gebruiken.",
+            "servers": "Laat alle servers zien."
         }
     },
     "history": {
@@ -211,7 +232,9 @@
             "noUserGiven": "Geen Minecraft naam meegegeven!",
             "default": "Er ging iets fout!"
         },
-        "title": "Mc Naam Geschiedenis | {name}"
+        "title": "Mc Naam Geschiedenis | {name}",
+        "ago": " geleden",
+        "first": "Eerste"
     },
     "instruments": {
         "err": {
@@ -268,6 +291,11 @@
         "name": "Mc Skin | {name}",
         "head": "Mc Hoofd | {name}"
     },
+    "uuid": {
+        "title": "Gebruikersnaam > UUID",
+        "name": "Naam:",
+        "id": "UUID:"
+    },
     "version": {
         "title": "Versie",
         "current": "Huidige Versie:",
@@ -280,6 +308,36 @@
         },
         "err": {
             "noValidVersion": "Deze versie bestaat niet!"
+        }
+    },
+    "dev": {
+        "blacklist": {
+            "err": {
+                "noUser": "No user given!",
+                "noValidUser": "No valid user given!",
+                "noId": "No userID given!",
+                "inDb": "This user is already on the blacklist since `{date}`!",
+                "notInDb": "This user isn't on the blacklist!"
+            },
+            "add": "{user} has been added to the blacklist!",
+            "remove": "{user} has been removed from the blacklist!",
+            "list": {
+                "title": "Blacklist"
+            },
+            "search": {
+                "title": "Blacklist | Search",
+                "user": "User:",
+                "id": "ID:",
+                "time": "Time:"
+            }
+        },
+        "eval": {
+            "err": {
+                "noCode": "No code given!",
+                "env": "Do you really think I'm that stupid..?"
+            },
+            "evaluatedFrom": "Evaluated From:",
+            "evaluated": "Evaluated"
         }
     }
 }
