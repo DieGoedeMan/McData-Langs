@@ -292,6 +292,10 @@
         "head": "Mc Hoofd | {name}"
     },
     "uuid": {
+        "err": {
+            "noUser": "Geen gebruikersnaam meegegeven!",
+            "noValidUser": "Deze gebruikersnaam bestaat niet!"
+        },
         "title": "Gebruikersnaam > UUID",
         "name": "Naam:",
         "id": "UUID:"
