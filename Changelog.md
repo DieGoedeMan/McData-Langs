@@ -1,6 +1,10 @@
 # **McData - Changelog**
 ### *Version explanation: V(Major version).(Minor version).(Bugfixes)*
 
+## **V2.0.1**
+**Bugs**
+- Fixed Dutch errors translation of the `uuid` command
+
 ## **V2.0.0**
 
 **New**
