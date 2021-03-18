@@ -13,6 +13,8 @@ None at the moment.., you can be the first one! Read on for an explanation of ho
 ## **⚙ Contributing**
 You're able to make changes to an existing language and adding a new language.
 > 📢 NOTE: If you dont know how to contribute on github, you can watch [this](https://www.youtube.com/watch?v=HbSjyU2vf6Y) tutorial.
+
+> 📢 IMPORTANT NOTE: Do NOT change the words inside {}! These are the pieces that will get replaced by the bot!
 ### **Editing a language**
 1. Fork and clone the repo.
 2. Make things better. :D
