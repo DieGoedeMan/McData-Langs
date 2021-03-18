@@ -31,6 +31,7 @@ You're able to make changes to an existing language and adding a new language.
 6. Wait wheter your request has been accepted or declined!
 
 Contributing to the repo will be highly appreciated!
+
 If you want the `translator` badge, create a ticket on the [support server](https://discord.gg/7nkbRZn9kc). You will need to have your Discord linked with Github to make sure you don't just try to get the badge for free. If your contribution is accepted, you will recieve your badge.
 
 ### 📢 ***If you have any questions, feel free to ask them on Discord: Exstare#0001***
