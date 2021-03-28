@@ -40,21 +40,39 @@
     },
     "settings": {
         "title": "Instellingen",
+        "pending": "Laden...",
         "langList": "Beschikbare Talen",
         "lang": "Taal:",
         "prefix": "Prefix:",
+        "server": "Server:",
         "type": "Type:",
         "value": "Waarde:",
         "name": "Naam:",
         "success": {
             "newLang": "De taal is aangepast naar **`{lang}`**!",
             "prefixReset": "De prefix is gerest naar: : ",
-            "newPrefix": "De prefix is aangepast naar: "
+            "newPrefix": "De prefix is aangepast naar: ",
+            "newServer": "De standaard server is ingesteld op: **`{ip}`**!",
+            "serverReset": "De standaard server is opnieuw ingesteld!"
         },
         "errors": {
             "noLang": "Geen taal meegegven!",
             "notExist": "De meegegeven taal is niet beschikbaar!",
-            "noPrefix": "Geen prefix meegegeven!"
+            "noPrefix": "Geen prefix meegegeven!",
+            "noServer": "Geen server-ip meegegeven!",
+            "noValidServer": "Geen server gevonden met het IP: **`{ip}`**"
+        }
+    },
+    "badge": {
+        "title": "Beschikbare Badges",
+        "info": {
+            "dev": "Degene die mij heeft gemaakt.",
+            "vip": "Een VIP, met een bepaalde reden.",
+            "mod": "Een moderator op de support server.",
+            "kofi": "Iemand die heeft gedoneerd op Ko-fi.",
+            "donator": "Iemand die €5,- of meer heeft gedoneerd.",
+            "translator": "Iemand die bij heeft gedragen aan de talen.",
+            "friend": "Een vriend van mijn maker."
         }
     },
     "botinfo": {
@@ -73,7 +91,8 @@
             "version": "Versie:",
             "createdOn": "Gemaakt Op:",
             "id": "ID:",
-            "prefix": "Prefix:"
+            "prefix": "Prefix:",
+            "creator": "Maker:"
         },
         "specs": {
             "title": "🛠 • Specificaties",
@@ -104,9 +123,11 @@
     "block": {
         "err": {
             "noBlockGiven": "Geen blok meegegeven!",
-            "noBlock": "Dit blok bestaat niet!"
+            "noBlock": "Dit blok bestaat niet!",
+            "listDesc": "Helaas in verband met de enorme hoeveelheid items (760+), is dit command niet beschikbaar..., **TOT NU TOE**. Wellicht in de toekomst!"
         },
         "title": "Blok | {block}",
+        "listTitle": "Blok Lijst",
         "id": "ID:",
         "hardness": "Hardheid:",
         "stackSize": "Stack Groote:",
@@ -118,7 +139,17 @@
         "diggable": "Hakbaar:",
         "harvestTools": "Gereedschap:"
     },
-    "colors": "Tekst Kleuren",
+    "colors": {
+        "err": {
+            "noColorGiven": "Geen kleur meegegeven!",
+            "noValidColor": "Deze kleur bestaat niet!"
+        },
+        "title": "Kleur | {color}",
+        "chatCode": "Chat Code:",
+        "motdCode": "MOTD Code:",
+        "hexCode": "Hex Code:",
+        "list": "Kleuren Lijst"
+    },
     "data": {
         "title": "Data Information",
         "info": [
@@ -194,6 +225,7 @@
         "info": "Info:",
         "admin": "Beheerder:",
         "dev": "Ontwikkelaar:",
+        "profile": "Profile:",
         "cmd": {
             "general": {
                 "title": "Help | {cmd}",
@@ -206,31 +238,38 @@
             "ping": "Als je mijn ping wil weten.",
             "biome": "Krijg informatie over een biome.",
             "block": "Krijg informatie over een blok.",
-            "datainfo": "Krijg informatie over de gebruikte waarden.",
+            "data": "Krijg informatie over de gebruikte waarden.",
             "effect": "Krijg informatie over een effect.",
             "entity": "Krijg informatie over een entiteit.",
             "food": "Krijg informatie over voedsel.",
-            "instruments": "Krijg informatie over een instrument.",
+            "instrument": "Krijg informatie over een instrument.",
             "item": "Krijg informatie over een item.",
-            "server": "Krijg informatie over een Minecraft server.",
+            "serverinfo": "Krijg informatie over een Minecraft server.",
             "version": "Krijg informatie over een Minecraft verie.",
             "head": "Laat het hoofd van een Minecraft speler zien.",
             "skin": "Laat de skin van een Minecraft speler zien.",
             "history": "Laat de vorige gebruikersnamen van een Minecraft speler zien.",
-            "colorcodes": "Laat de Minecraft kleuren zien.",
+            "color": "Laat de Minecraft kleuren zien.",
             "formatting": "Laat de opmaak codes zien.",
             "uuid": "Verkrijg de UUID van een Minecraft speler.",
             "devhelp": "Ben je echt zo dom..?",
             "eval": "Evalueer iets.",
             "blacklist": "Voorkomt dat gebruikers de bot gebruiken.",
-            "servers": "Laat alle servers zien."
+            "servers": "Laat alle servers zien.",
+            "badge": "Laat alle badges zien.",
+            "profile": "Weergeeft je profiel.",
+            "link": "Verbind je Minecraft naam.",
+            "unlink": "Verbreek de verbinding met je Minecraft naam.",
+            "status": "Verkrijg de status van diverse domeinen.",
+            "credits": "Speciale dank aan deze mensen."
         }
     },
     "history": {
         "err": {
             "noUser": "Dit gebruikersnaam bestaat niet!",
             "noUserGiven": "Geen Minecraft naam meegegeven!",
-            "default": "Er ging iets fout!"
+            "default": "Er ging iets fout!",
+            "notLinked": "Je hebt je account niet gelinked en geen gebruikersnaam meegegeven!"
         },
         "title": "Mc Naam Geschiedenis | {name}",
         "ago": " geleden",
@@ -239,7 +278,7 @@
     "instruments": {
         "err": {
             "noInstrumentGiven": "Geen instrument meegegeven!",
-            "noInstrument": "Dit instrument Bestaat niet!"
+            "noInstrument": "Dit instrument bestaat niet!"
         },
         "title": "Instrument | {ins}",
         "name": "Naam:",
@@ -263,18 +302,36 @@
         "invite": "Invite",
         "donate": "Doneer",
         "support": "Hulp",
+        "kofi": "Ko-fi",
+        "docs": "Documentatie",
         "click": "Klik [hier]({link})!"
     },
     "ping": {
         "pending": "Laden...",
         "ping": "Ping"
     },
+    "profile": {
+        "err": {
+            "none": "-",
+            "usage": "❌ {prefix}link",
+            "noNameGiven": "Geen gebruiker meegegeven!",
+            "noValidName": "Geen geldige gebruikersnaam meegegeven!",
+            "noLink": "Je hebt geen Minecraft account verbonden!"
+        },
+        "title": "Profiel | {name}",
+        "linkedUsername": "Account:",
+        "linkedSince": "Verbonden sinds:",
+        "badges": "Badges:",
+        "link": "`{name}` is verbonden aan jouw account!",
+        "unlink": "`{name}` is niet meer verbonden aan jouw account!"
+    },
     "server": {
         "err": {
-            "noServerGiven": "Geen server-ip meegegeven!",
+            "noServerGiven": "Geen standaard server ingesteld en geen server-ip meegegeven!",
             "noServer": "Geen server gevonden met het IP: **`{ip}`**"
         },
         "pending": "Data verkrijgen van **`{ip}`**...",
+        "loading": "Laden...",
         "title": "Server | `{ip}`",
         "port": "Poort:",
         "version": "Versie:",
@@ -286,7 +343,8 @@
         "err": {
             "noUser": "Dit gebruikersnaam bestaat niet!",
             "noUserGiven": "Geen Minecraft naam meegegeven!",
-            "default": "Er ging iets fout!"
+            "default": "Er ging iets fout!",
+            "notLinked": "Je hebt je account niet gelinked en geen gebruikersnaam meegegeven!"
         },
         "name": "Mc Skin | {name}",
         "head": "Mc Hoofd | {name}"
@@ -294,7 +352,8 @@
     "uuid": {
         "err": {
             "noUser": "Geen gebruikersnaam meegegeven!",
-            "noValidUser": "Deze gebruikersnaam bestaat niet!"
+            "noValidUser": "Deze gebruikersnaam bestaat niet!",
+            "notLinked": "Je hebt je account niet gelinked en geen gebruikersnaam meegegeven!"
         },
         "title": "Gebruikersnaam > UUID",
         "name": "Naam:",
@@ -315,6 +374,18 @@
         }
     },
     "dev": {
+        "badge": {
+            "err": {
+                "noUserGiven": "No user given!",
+                "noBadgeGiven": "No badgeID given!",
+                "noValidBadge": "This badge does not exist!",
+                "hasBadgeAlready": "This user has this badge already!",
+                "isBot": "Bot's can't have badges!"
+            },
+            "title": "Available Badges",
+            "add": "The {badge} badge has been added to {user}!",
+            "remove": "The {badge} badge has been removed from {user}!"
+        },
         "blacklist": {
             "err": {
                 "noUser": "No user given!",
