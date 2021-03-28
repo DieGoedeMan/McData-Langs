@@ -40,21 +40,40 @@
     },
     "settings": {
         "title": "Settings",
+        "pending": "Loading...",
         "langList": "Available Languages",
         "prefix": "Prefix:",
         "lang": "Language:",
+        "server": "Server:",
         "type": "Type:",
         "value": "Value:",
         "name": "Name:",
         "success": {
             "newLang": "The language has been succesfully changed to **`{lang}`**!",
             "prefixReset": "The prefix has been reset to: ",
-            "newPrefix": "The prefix has been changed to: "
+            "newPrefix": "The prefix has been changed to: ",
+            "newServer": "The default server has been set to: **`{ip}`**!",
+            "serverReset": "The default server has been reset!"
+
         },
         "errors": {
             "noLang": "No language given!",
             "notExist": "The given language is not available!",
-            "noPrefix": "No prefix given!"
+            "noPrefix": "No prefix given!",
+            "noServer": "No server-ip given!",
+            "noValidServer": "No server found with the IP: **`{ip}`**"
+        }
+    },
+    "badge": {
+        "title": "Available Badges",
+        "info": {
+            "dev": "The one who created me.",
+            "vip": "A VIP, with a reason.",
+            "mod": "A moderator on the support server.",
+            "kofi": "Someone who donated through Ko-fi.",
+            "donator": "Someone who donated €5,- or more.",
+            "translator": "Someone who contributed to the languages.",
+            "friend": "A friend of my creater."
         }
     },
     "botinfo": {
@@ -73,7 +92,8 @@
             "version": "Version:",
             "createdOn": "Created On:",
             "id": "ID:",
-            "prefix": "Prefix:"
+            "prefix": "Prefix:",
+            "creator": "Creator:"
         },
         "specs": {
             "title": "🛠 • Specifications",
@@ -104,9 +124,11 @@
     "block": {
         "err": {
             "noBlockGiven": "No block given!",
-            "noBlock": "This block does not exist!"
+            "noBlock": "This block does not exist!",
+            "listDesc": "Unfortunately because of the huge amount of blocks (760+), this command is not available..., **YET**. Maybe in the future!"
         },
         "title": "Block | {block}",
+        "listTitle": "Block List",
         "id": "ID:",
         "hardness": "Hardness:",
         "stackSize": "Stack Size:",
@@ -118,7 +140,26 @@
         "diggable": "Diggable:",
         "harvestTools": "Tools:"
     },
-    "colors": "Text Colors",
+    "colors": {
+        "err": {
+            "noColorGiven": "No color given!",
+            "noValidColor": "This color does not exist!"
+        },
+        "title": "Color | {color}",
+        "chatCode": "Chat Code:",
+        "motdCode": "MOTD Code:",
+        "hexCode": "Hex Code:",
+        "list": "Colors List"
+    },
+    "credits": {
+        "title": "Credits",
+        "dev": "Developer",
+        "vip": "VIP",
+        "mod": "Moderators",
+        "trans": "Translators",
+        "donators": "Donators",
+        "kofi": "Ko-fi Donator"
+    },
     "data": {
         "title": "Data Information",
         "info": [
@@ -194,6 +235,7 @@
         "info": "Info:",
         "admin": "Admin:",
         "dev": "Developer:",
+        "profile": "Profile:",
         "cmd": {
             "general": {
                 "title": "Help | {cmd}",
@@ -206,29 +248,36 @@
             "ping": "Let you see my ping.",
             "biome": "Get information about a biome.",
             "block": "Get information about a block.",
-            "datainfo": "Get information about the used values.",
+            "data": "Get information about the used values.",
             "effect": "Get information about an effect.",
             "entity": "Get information about an entity.",
             "food": "Get information about food.",
-            "instruments": "Get information about an instrument.",
+            "instrument": "Get information about an instrument.",
             "item": "Get information about an item.",
-            "server": "Get information about a Minecraft server.",
+            "serverinfo": "Get information about a Minecraft server.",
             "version": "Get information about a Minecraft version.",
             "head": "Shows the Minecraft head of a player.",
             "skin": "Shows the Minecraft skin from a player",
             "history": "Shows the previous Minecraft usernames.",
-            "colorcodes": "Shows the Minecraft colors.",
+            "color": "Shows the Minecraft colors.",
             "formatting": "Shows the formatting codes.",
             "uuid": "Get the UUID of a Minecraft player.",
             "devhelp": "Are you actually stupid..?",
             "eval": "Evaluate something.",
             "blacklist": "Prevents users from using the bot globally.",
-            "servers": "Lists all the servers"
+            "servers": "Lists all the servers",
+            "badge": "Shows all the badges.",
+            "profile": "Shows your profile.",
+            "link": "Link your Minecraft username.",
+            "unlink": "Unlink your Minecraft username.",
+            "status": "Get the status of various domains.",
+            "credits": "Special thanks to these people."
         }
     },
     "history": {
         "err": {
             "noUser": "This username does not exist!",
+            "notLinked": "You don't have your account linked and no user given!",
             "noUserGiven": "No Minecraft name given!",
             "default": "Something went wrong!"
         },
@@ -263,18 +312,36 @@
         "invite": "Invite",
         "donate": "Donate",
         "support": "Support",
+        "kofi": "Ko-fi",
+        "docs": "Documentation",
         "click": "Click [here]({link})!"
     },
     "ping": {
         "pending": "Loading...",
         "ping": "Ping"
     },
+    "profile": {
+        "err": {
+            "none": "-",
+            "usage": "❌ {prefix}link",
+            "noNameGiven": "No username given!",
+            "noValidName": "No valid username given!",
+            "noLink": "You don't have a linked Minecraft username!"
+        },
+        "title": "Profile | {name}",
+        "linkedUsername": "Linked Username:",
+        "linkedSince": "Linked Since:",
+        "badges": "Badges:",
+        "link": "`{name}` has been linked to your account!",
+        "unlink": "`{name}` has been unlinked from your account!"
+    },
     "server": {
         "err": {
-            "noServerGiven": "No server-ip given!",
+            "noServerGiven": "No default server set and no server-ip given!",
             "noServer": "No server found with the IP: **`{ip}`**"
         },
         "pending": "Getting data from **`{ip}`**...",
+        "loading": "Loading...",
         "title": "Server | `{ip}`",
         "port": "Port:",
         "version": "Version:",
@@ -286,7 +353,8 @@
         "err": {
             "noUser": "This username does not exist!",
             "noUserGiven": "No Minecraft name given!",
-            "default": "Something went wrong!"
+            "default": "Something went wrong!",
+            "notLinked": "You don't have your account linked and no user given!"
         },
         "name": "Mc Skin | {name}",
         "head": "Mc Head | {name}"
@@ -294,7 +362,8 @@
     "uuid": {
         "err": {
             "noUser": "No username given!",
-            "noValidUser": "This username does not exist!"
+            "noValidUser": "This username does not exist!",
+            "notLinked": "You don't have a Minecraft username linked to your account!"
         },
         "title": "Username > UUID",
         "name": "Name:",
@@ -315,6 +384,18 @@
         }
     },
     "dev": {
+        "badge": {
+            "err": {
+                "noUserGiven": "No user given!",
+                "noBadgeGiven": "No badgeID given!",
+                "noValidBadge": "This badge does not exist!",
+                "hasBadgeAlready": "This user has this badge already!",
+                "isBot": "Bot's can't have badges!"
+            },
+            "title": "Available Badges",
+            "add": "The {badge} badge has been added to {user}!",
+            "remove": "The {badge} badge has been removed from {user}!"
+        },
         "blacklist": {
             "err": {
                 "noUser": "No user given!",
