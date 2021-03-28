@@ -2,7 +2,7 @@
 
 # **McData - Languages**
 
-These are the official language files for the McData Discord bot, which you can invite [here](https://discord.com/api/oauth2/authorize?client_id=792824373894840361&permissions=8&scope=bot). The changelog of the bot is has been moved to the [documentation](https://exstare.gitbook.io/mcdata/).`
+These are the official language files for the McData Discord bot, which you can invite [here](https://discord.com/api/oauth2/authorize?client_id=792824373894840361&permissions=8&scope=bot). The changelog of the bot is has been moved to the [documentation](https://exstare.gitbook.io/mcdata/).
 
 ## **🌐 Default languages**
 The languages that are already supported are **English** and **Dutch**, simpely because I speak them. I would love to have a lot more languages, and so I provide the option to add a language or edit an existing one to make it better or fix issues!
