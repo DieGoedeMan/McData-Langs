@@ -176,7 +176,7 @@
             "**Light Filterd:** The amount of light that gets filterd.",
             "**Material:** The material of a block.",
             "**Rainfall:** The amount of rain in a biome.",
-            "**Saturation:** The saturation level",
+            "**Saturation:** The saturation level.",
             "**Saturation Ratio:** The saturation ratio.",
             "**Stack Size:** The stack size for an item.",
             "**Temperature:** An indicator for the temperature in a biome.",

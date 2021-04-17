@@ -1,244 +1,244 @@
 {
-    "prefix": "Hey daar! Mijn prefix hier is `{prefix}`",
-    "pending": "Laden...",
+    "prefix": "Sie da! Mein Präfix hier ist `{prefix}`",
+    "pending": "Belastung...",
     "errors": {
-        "errText": "Oh nee, er ging iets fout!",
-        "noPerms": "Je hebt hier geen permissies voor!",
-        "cooldown": "Rustig aan! Je zit op een cooldown voor nog `{time} seconde(n)`!",
-        "blacklist": "Sorry, je staat op de zwarte lijst en kan mij dus niet gebruiken!"
+        "errText": "Oh nein, etwas ist schief gelaufen!",
+        "noPerms": "Sie haben keine Berechtigungen dafür!",
+        "cooldown": "Immer mit der Ruhe! Du hast eine Abklingzeit für eine weitere `{time} Sekunde(n)`!",
+        "blacklist": "Entschuldigung, Sie wurden auf die schwarze Liste gesetzt und können mich nicht benutzen!"
     },
     "trans": {
         "server": {
             "true": "<:Ex_online:811565956873584672>",
             "false": "<:Ex_offline:811565957046468658>"
         },
-        "bad": "Slecht",
-        "good": "Goed",
+        "bad": "Schlecht",
+        "good": "Gut",
         "true": "Ja",
-        "false": "Nee",
+        "false": "Nein",
         "block": "Block",
-        "empty": "Leeg",
-        "__MATERIAL": "MATERIALS",
+        "empty": "Leer",
+        "__MATERIAL": "MATERIALIEN",
         "none": "`-`",
-        "dirt": "Aarde",
-        "plant": "Plant",
-        "rock": "Steen",
+        "dirt": "Boden",
+        "plant": "Pflanze",
+        "rock": "Stein",
         "unknown": "`-`",
-        "web": "Web",
-        "wood": "Hout",
-        "wool": "Wol",
-        "__ENTITIES": "ENTITIES",
-        "Blocks": "Blokken",
-        "Hostile mobs": "Agressieve Mobs",
-        "Passive mobs": "Passieve Mobs",
-        "Projectiles": "Projectiel",
+        "web": "Netz",
+        "wood": "Holz",
+        "wool": "Wolle",
+        "__ENTITIES": "EINHEITEN",
+        "Blocks": "Blöcke",
+        "Hostile mobs": "Aggressive Mobs",
+        "Passive mobs": "Passive Mobs",
+        "Projectiles": "Projektil",
         "UNKNOWN": "`-`",
         "Vehicles": "Transport",
-        "red": "🔴 ➜ Onbereikbaar",
-        "yellow": "🟡 ➜ Paar problemen",
-        "green": "🟢 ➜ Geen problemen"
+        "red": "🔴 ➜ Nicht zugänglich",
+        "yellow": "🟡 ➜ Ein paar Probleme",
+        "green": "🟢 ➜ Keine Probleme"
     },
     "settings": {
-        "title": "Instellingen",
-        "pending": "Laden...",
-        "langList": "Beschikbare Talen",
-        "lang": "Taal:",
-        "prefix": "Prefix:",
+        "title": "die Einstellungen",
+        "pending": "Belastung...",
+        "langList": "Verfügbare Sprachen",
+        "lang": "Sprache:",
+        "prefix": "Präfix:",
         "server": "Server:",
-        "type": "Type:",
-        "value": "Waarde:",
-        "name": "Naam:",
+        "type": "Art:",
+        "value": "Wert:",
+        "name": "Name:",
         "success": {
-            "newLang": "De taal is aangepast naar **`{lang}`**!",
-            "prefixReset": "De prefix is gerest naar: ",
-            "newPrefix": "De prefix is aangepast naar: ",
-            "newServer": "De standaard server is ingesteld op: **`{ip}`**!",
-            "serverReset": "De standaard server is opnieuw ingesteld!"
+            "newLang": "Die Sprache wurde in ** `{lang}` ** geändert!",
+            "prefixReset": "Das Präfix wurde zurückgesetzt auf: ",
+            "newPrefix": "Das Präfix wurde geändert in: ",
+            "newServer": "Der Standardserver ist eingestellt auf: ** `{ip}` **!",
+            "serverReset": "Der Standardserver wurde zurückgesetzt!"
         },
         "errors": {
-            "noLang": "Geen taal meegegven!",
-            "notExist": "De meegegeven taal is niet beschikbaar!",
-            "noPrefix": "Geen prefix meegegeven!",
-            "noServer": "Geen server-ip meegegeven!",
-            "noValidServer": "Geen server gevonden met het IP: **`{ip}`**"
+            "noLang": "Keine Sprache!",
+            "notExist": "Die angegebene Sprache ist nicht verfügbar!",
+            "noPrefix": "Kein Präfix angegeben!",
+            "noServer": "Keine Server IP angegeben!",
+            "noValidServer": "Kein Server mit der IP gefunden: ** `{ip}` **"
         }
     },
     "badge": {
-        "title": "Beschikbare Badges",
+        "title": "Verfügbare Abzeichen",
         "info": {
-            "dev": "Degene die mij heeft gemaakt.",
-            "vip": "Een VIP, met een bepaalde reden.",
-            "mod": "Een moderator op de support server.",
-            "kofi": "Iemand die heeft gedoneerd op Ko-fi.",
-            "donator": "Iemand die €5,- of meer heeft gedoneerd.",
-            "translator": "Iemand die bij heeft gedragen aan de talen.",
-            "friend": "Een vriend van mijn maker."
+            "dev": "Derjenige, der mich gemacht hat.",
+            "vip": "Ein VIP aus einem bestimmten Grund.",
+            "mod": "Ein Moderator auf dem Support-Server.",
+            "kofi": "Jemand, der auf Ko-Fi gespendet hat.",
+            "donator": "Jemand, der 5 € oder mehr gespendet hat.",
+            "translator": "Jemand, der zu den Sprachen beigetragen hat.",
+            "friend": "Ein Freund meines Herstellers."
         }
     },
     "botinfo": {
-        "requester": "Opgevraagd Door: {PERSON}",
-        "choose": "**Kies het gewilde menu!**",
+        "requester": "Angefordert von: {PERSON}",
+        "choose": "**Wählen Sie das gewünschte Menü!**",
         "title": {
-            "title": "🏠 • Botinfo Menu",
-            "menu": "Botinfo Menu",
+            "title": "🏠 • Botinfo Menü",
+            "menu": "Botinfo Menü",
             "botinfo": "Botinfo",
-            "specs": "Specificaties",
-            "uptime": "Uptime"
+            "specs": "Spezifikationen",
+            "uptime": "Betriebszeit"
         },
         "bi": {
             "title": "🤖 • Botinfo",
-            "name": "Bot Naam:",
-            "version": "Versie:",
-            "createdOn": "Gemaakt Op:",
+            "name": "Bot Name:",
+            "version": "Ausführung:",
+            "createdOn": "Gemacht auf:",
             "id": "ID:",
-            "prefix": "Prefix:",
-            "creator": "Maker:"
+            "prefix": "Präfix:",
+            "creator": "Hersteller:"
         },
         "specs": {
-            "title": "🛠 • Specificaties",
-            "mem": "Mem Gebruik:",
-            "users": "Gebruikers:",
+            "title": "🛠 • Spezifikationen",
+            "mem": "Mem Verwendung:",
+            "users": "Benutzer:",
             "servers": "Servers:",
-            "cpu": "CPU Gebruik:",
+            "cpu": "CPU Verwendung:",
             "arch": "Arch:",
-            "platform": "Platform:"
+            "platform": "Plattform:"
         },
         "uptime": {
-            "title": "⏱ • Uptime",
-            "desc": "Huidige Uptime"
+            "title": "⏱ • Betriebszeit",
+            "desc": "Aktuelle Betriebszeit"
         },
-        "time": "Sorry, je tijd is om! (2m)"
+        "time": "Entschuldigung, Ihre Zeit ist abgelaufen! (2m)"
     },
     "biome": {
         "err": {
-            "noBiome": "Deze biome bestaat niet!",
-            "noBiomeGiven": "Geen biome meegegeven!"
+            "noBiome": "Dieses Biom existiert nicht!",
+            "noBiomeGiven": "Kein Biom vorhanden!"
         },
-        "title": "Biome | {biome}",
+        "title": "Biom | {biome}",
         "id": "ID:",
-        "rainfall": "Regenval:",
-        "temperature": "Temperatuur:",
-        "listTitle": "Biome Lijst"
+        "rainfall": "Regenfall:",
+        "temperature": "Temperatur:",
+        "listTitle": "Biome-Liste"
     },
     "block": {
         "err": {
-            "noBlockGiven": "Geen blok meegegeven!",
-            "noBlock": "Dit blok bestaat niet!",
-            "listDesc": "Helaas in verband met de enorme hoeveelheid items (760+), is dit command niet beschikbaar..., **TOT NU TOE**. Wellicht in de toekomst!"
+            "noBlockGiven": "Kein Block gegeben!",
+            "noBlock": "Dieser Block existiert nicht!",
+            "listDesc": "Leider ist dieser Befehl aufgrund der großen Anzahl von Elementen (760+) nicht verfügbar ..., **IS JETZT**. Vielleicht in der Zukunft!"
         },
-        "title": "Blok | {block}",
-        "listTitle": "Blok Lijst",
+        "title": "Block | {Block}",
+        "listTitle": "Block-Liste",
         "id": "ID:",
-        "hardness": "Hardheid:",
-        "stackSize": "Stack Groote:",
-        "material": "Materiaal:",
-        "transparant": "Transparant:",
-        "filterLight": "Gefilterd Licht:",
-        "emitLight": "Uitgezonden Licht:",
-        "boundingBox": "Omsluitend Kader:",
-        "diggable": "Hakbaar:",
-        "harvestTools": "Gereedschap:"
+        "hardness": "Härte:",
+        "stackSize": "Stapelgrösse:",
+        "material": "Material:",
+        "transparant": "Transparent:",
+        "filterLight": "Gefiltertes Licht:",
+        "emitLight": "Emittiertes Licht:",
+        "boundingBox": "Beiliegender Rahmen:",
+        "diggable": "Chopable:",
+        "harvestTools": "Werkzeuge:"
     },
     "colors": {
         "err": {
-            "noColorGiven": "Geen kleur meegegeven!",
-            "noValidColor": "Deze kleur bestaat niet!"
+            "noColorGiven": "Keine Farbe angegeben!",
+            "noValidColor": "Diese Farbe existiert nicht!"
         },
-        "title": "Kleur | {color}",
-        "chatCode": "Chat Code:",
-        "motdCode": "MOTD Code:",
-        "hexCode": "Hex Code:",
-        "list": "Kleuren Lijst"
+        "title": "Farbe | {color}",
+        "chatCode": "Chat-Code:",
+        "motdCode": "MOTD-Code:",
+        "hexCode": "Hex-Code:",
+        "list": "Farbliste"
     },
     "data": {
-        "title": "Data Informatie",
+        "title": "Dateninformationen",
         "info": [
-            "**Breedte:** De breedte van een entiteit.",
-            "**Categorie:** De categorie van een item.",
-            "**Effectieve Kwaliteit:** De effectieve kwaliteit van voedsel.",
-            "**Gefilterd Licht:** De hoeveelheid licht wat wordt gefilterd.",
-            "**Hakbaar:** Of je een blok weg kan hakken.",
-            "**Hardheid:** De hardheid van een blok.",
-            "**Hoogte:** De hoogte van een entiteit.",
-            "**ID:** De unieke identificatie voor een biome.",
-            "**Levensduur:** Hoe vaak je gereedschap kan gebruiken (Zonder betoveringen).",
-            "**Materiaal:** Het materiaal van een blok.",
-            "**Omsluitend Kader:** Het omsluitende kader van een blok.",
-            "**Regenval:** De hoeveelheid regen in een biome.",
-            "**Soort:** Of een effect goed of slecht is.",
-            "**Stack Groote:** Hoeveel items je in 1 slot kan houden.",
-            "**Temperatuur:** Een indicator voor de temperatuur in een biome.",
-            "**Transparant:** Of een blok transparant is.",
-            "**Uitgezonden Licht:** De hoeveelheid licht wat wordt uitgezonden.",
-            "**Verzadiging:** De verzadiging wat je van voedsel krijgt.",
-            "**Verzadiging Verhouding:** De verzadigingsverhouding van voedsel.",
-            "**Voedsel Punten:** Het aantal voedselpunten wat je krijgt."
+            "**Breite:** Die Breite einer Entität.",
+            "**Kategorie:** Die Kategorie eines Artikels.",
+            "**Effektive Qualität:** Die effektive Qualität von Lebensmitteln.",
+            "**Gefiltertes Licht:** Die Menge an Licht, die gefiltert wird.",
+            "**Zerhackbar:** Ob Sie einen Block weghacken können.",
+            "**Härte:** Die Härte eines Blocks.",
+            "**Höhe:** Die Höhe eines Objekts.",
+            "**ID:** Die eindeutige Kennung für ein Biom.",
+            "**Lebensdauer:** Wie oft können Sie Werkzeuge verwenden (ohne Zauber).",
+            "**Material:** Das Material eines Blocks.",
+            "**Begrenzungsrahmen:** Der Begrenzungsrahmen eines Blocks.",
+            "**Niederschlag:** Die Regenmenge in einem Biom.",
+            "**Art:** Ob ein Effekt gut oder schlecht ist.",
+            "**Stapelgröße:** Wie viele Gegenstände können Sie in einem Steckplatz aufbewahren.",
+            "**Temperatur:** Ein Indikator für die Temperatur in einem Biom.",
+            "**Transparent:** Gibt an, ob ein Block transparent ist.",
+            "**Emittiertes Licht:** Die Menge an Licht, die emittiert wird.",
+            "**Sättigung:** Die Sättigung, die Sie durch Essen erhalten.",
+            "**Sättigungsverhältnis:** Das Sättigungsverhältnis von Lebensmitteln.",
+            "**Food Points:** Die Anzahl der Food Points, die Sie erhalten."
         ]
     },
     "effect": {
         "err": {
-            "noEffect": "Dit effect bestaat niet!",
-            "noEffectGiven": "Geen effect meegegeven!"
+            "noEffect": "Dieser Effekt existiert nicht!",
+            "noEffectGiven": "Kein Effekt gegeben!"
         },
-        "title": "Effect | {effect}",
-        "name": "Naam:",
+        "title": "Wirkung | {effect}",
+        "name": "Name:",
         "id": "ID:",
-        "type": "Type:",
-        "listTitle": "Effect Lijst"
+        "type": "Art:",
+        "listTitle": "Effektliste"
     },
     "entity": {
         "err": {
-            "noEntity": "Dit entiteit bestaat niet!",
-            "noEntityGiven": "Geen entiteit meegegeven!"
+            "noEntity": "Diese Entität existiert nicht!",
+            "noEntityGiven": "Keine Entität angegeben!"
         },
-        "title": "Entiteit | {entity}",
+        "title": "Entität | {entity}",
         "id": "ID:",
-        "width": "Breedte",
-        "height": "Hoogte",
-        "category": "Categorie",
-        "listTitle": "Entity Lijst"
+        "width": "Breite",
+        "height": "Höhe",
+        "category": "Kategorie",
+        "listTitle": "Entitätsliste"
     },
     "food": {
         "err": {
-            "noFood": "Dit voedsel bestaat niet!",
-            "noFoodGiven": "Geen voedsel meegegeven!"
+            "noFood": "Dieses Essen gibt es nicht!",
+            "noFoodGiven": "Kein Essen zur Verfügung gestellt!"
         },
-        "title": "Voedsel | {food}",
+        "title": "Essen | {food}",
         "id": "ID:",
-        "stackSize": "Stack Groote:",
-        "foodPoints": "Voedsel Punten",
+        "stackSize": "Stapelgrösse:",
+        "foodPoints": "Food Points",
         "saturation": "Verzadiging:",
-        "satRatio": "Verzadiging Verhouding:",
-        "effectiveQuality": "Effectieve Kwaliteit",
-        "listTitle": "Voedsel Lijst"
+        "satRatio": "Sättigungsverhältnis:",
+        "effectiveQuality": "Effektive Qualität",
+        "listTitle": "Lebensmittelliste"
     },
-    "formatting": "Tekst Formatteren",
+    "formatting": "Text formatieren",
     "help": {
-        "title": "Help",
-        "note": "_[] = Verplicht, <> = Optioneel, / = Splitser, \"\" = Exact Argument_",
-        "desc": "Beschrijving:",
-        "cat": "Categorie:",
-        "aliases": "Aliases:",
-        "usage": "Gebruik:",
-        "cooldown": "Cooldown:",
-        "general": "Algemeen:",
-        "info": "Info:",
-        "admin": "Beheerder:",
-        "dev": "Ontwikkelaar:",
-        "profile": "Profiel:",
+        "title": "Hilfe",
+        "note": "_ [] = Obligatorisch, <> = Optional, / = Splitter, \"\" = Exaktes Argument_",
+        "desc": "Beschreibung:",
+        "cat": "Kategorie:",
+        "aliases": "Aliase:",
+        "usage": "Benutzen:",
+        "cooldown": "Abkühlen:",
+        "general": "Allgemeines:",
+        "info": "Die Info:",
+        "admin": "Administrator:",
+        "dev": "Entwickler:",
+        "profile": "Profil:",
         "cmd": {
             "general": {
-                "title": "Help | {cmd}",
-                "err": "Dit command bestaat niet!"
+                "title": "Hilfe | {cmd}",
+                "err": "Dieser Befehl existiert nicht!"
             },
-            "settings": "De beschikbare instellingen.",
-            "botinfo": "Informatie over mij.",
-            "help": "Ben je echt zo dom..?",
-            "links": "Om de linkjes te krijgen.",
-            "ping": "Als je mijn ping wil weten.",
-            "biome": "Krijg informatie over een biome.",
-            "block": "Krijg informatie over een blok.",
-            "data": "Krijg informatie over de gebruikte waarden.",
+            "settings": "Die verfügbaren Einstellungen.",
+            "botinfo": "Informationen über mich.",
+            "help": "Bist du wirklich so dumm ..?",
+            "links": "Um die Links zu bekommen.",
+            "ping": "Wenn du meinen Ping wissen willst.",
+            "biome": "Informieren Sie sich über ein Biom.",
+            "block": "Informationen zu einem Block abrufen.",
+            "data": "Informieren Sie sich über die verwendeten Werte.",
             "effect": "Krijg informatie over een effect.",
             "entity": "Krijg informatie over een entiteit.",
             "food": "Krijg informatie over voedsel.",
@@ -252,7 +252,7 @@
             "color": "Laat de Minecraft kleuren zien.",
             "formatting": "Laat de opmaak codes zien.",
             "uuid": "Verkrijg de UUID van een Minecraft speler.",
-            "devhelp": "Ben je echt zo dom..?",
+            "devhelp": "Bist du wirklich so dumm ..?",
             "eval": "Evalueer iets.",
             "blacklist": "Voorkomt dat gebruikers de bot gebruiken.",
             "servers": "Laat alle servers zien.",
