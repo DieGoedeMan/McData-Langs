@@ -50,7 +50,7 @@
         "name": "Naam:",
         "success": {
             "newLang": "De taal is aangepast naar **`{lang}`**!",
-            "prefixReset": "De prefix is gerest naar: : ",
+            "prefixReset": "De prefix is gerest naar: ",
             "newPrefix": "De prefix is aangepast naar: ",
             "newServer": "De standaard server is ingesteld op: **`{ip}`**!",
             "serverReset": "De standaard server is opnieuw ingesteld!"
@@ -151,7 +151,7 @@
         "list": "Kleuren Lijst"
     },
     "data": {
-        "title": "Data Information",
+        "title": "Data Informatie",
         "info": [
             "**Breedte:** De breedte van een entiteit.",
             "**Categorie:** De categorie van een item.",
@@ -160,7 +160,7 @@
             "**Hakbaar:** Of je een blok weg kan hakken.",
             "**Hardheid:** De hardheid van een blok.",
             "**Hoogte:** De hoogte van een entiteit.",
-            "**ID:** De unieke identificatie voor een biome .",
+            "**ID:** De unieke identificatie voor een biome.",
             "**Levensduur:** Hoe vaak je gereedschap kan gebruiken (Zonder betoveringen).",
             "**Materiaal:** Het materiaal van een blok.",
             "**Omsluitend Kader:** Het omsluitende kader van een blok.",
@@ -206,10 +206,10 @@
         "title": "Voedsel | {food}",
         "id": "ID:",
         "stackSize": "Stack Groote:",
-        "foodPoints": "Voedsel Punten",
+        "foodPoints": "Voedsel Punten:",
         "saturation": "Verzadiging:",
         "satRatio": "Verzadiging Verhouding:",
-        "effectiveQuality": "Effectieve Kwaliteit",
+        "effectiveQuality": "Effectieve Kwaliteit:",
         "listTitle": "Voedsel Lijst"
     },
     "formatting": "Tekst Formatteren",
@@ -225,7 +225,7 @@
         "info": "Info:",
         "admin": "Beheerder:",
         "dev": "Ontwikkelaar:",
-        "profile": "Profile:",
+        "profile": "Profiel:",
         "cmd": {
             "general": {
                 "title": "Help | {cmd}",

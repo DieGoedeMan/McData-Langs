@@ -1,0 +1,418 @@
+{
+    "prefix": "Sie da! Mein Präfix hier ist `{prefix}`",
+    "pending": "Belastung...",
+    "errors": {
+        "errText": "Oh nein, etwas ist schief gelaufen!",
+        "noPerms": "Sie haben keine Berechtigungen dafür!",
+        "cooldown": "Immer mit der Ruhe! Du hast eine Abklingzeit für eine weitere `{time} Sekunde(n)`!",
+        "blacklist": "Entschuldigung, Sie wurden auf die schwarze Liste gesetzt und können mich nicht benutzen!"
+    },
+    "trans": {
+        "server": {
+            "true": "<:Ex_online:811565956873584672>",
+            "false": "<:Ex_offline:811565957046468658>"
+        },
+        "bad": "Schlecht",
+        "good": "Gut",
+        "true": "Ja",
+        "false": "Nein",
+        "block": "Block",
+        "empty": "Leer",
+        "__MATERIAL": "MATERIALIEN",
+        "none": "`-`",
+        "dirt": "Boden",
+        "plant": "Pflanze",
+        "rock": "Stein",
+        "unknown": "`-`",
+        "web": "Netz",
+        "wood": "Holz",
+        "wool": "Wolle",
+        "__ENTITIES": "EINHEITEN",
+        "Blocks": "Blöcke",
+        "Hostile mobs": "Aggressive Mobs",
+        "Passive mobs": "Passive Mobs",
+        "Projectiles": "Projektil",
+        "UNKNOWN": "`-`",
+        "Vehicles": "Transport",
+        "red": "🔴 ➜ Nicht zugänglich",
+        "yellow": "🟡 ➜ Ein paar Probleme",
+        "green": "🟢 ➜ Keine Probleme"
+    },
+    "settings": {
+        "title": "die Einstellungen",
+        "pending": "Belastung...",
+        "langList": "Verfügbare Sprachen",
+        "lang": "Sprache:",
+        "prefix": "Präfix:",
+        "server": "Server:",
+        "type": "Art:",
+        "value": "Wert:",
+        "name": "Name:",
+        "success": {
+            "newLang": "Die Sprache wurde in ** `{lang}` ** geändert!",
+            "prefixReset": "Das Präfix wurde zurückgesetzt auf: ",
+            "newPrefix": "Das Präfix wurde geändert in: ",
+            "newServer": "Der Standardserver ist eingestellt auf: ** `{ip}` **!",
+            "serverReset": "Der Standardserver wurde zurückgesetzt!"
+        },
+        "errors": {
+            "noLang": "Keine Sprache!",
+            "notExist": "Die angegebene Sprache ist nicht verfügbar!",
+            "noPrefix": "Kein Präfix angegeben!",
+            "noServer": "Keine Server IP angegeben!",
+            "noValidServer": "Kein Server mit der IP gefunden: ** `{ip}` **"
+        }
+    },
+    "badge": {
+        "title": "Verfügbare Abzeichen",
+        "info": {
+            "dev": "Derjenige, der mich gemacht hat.",
+            "vip": "Ein VIP aus einem bestimmten Grund.",
+            "mod": "Ein Moderator auf dem Support-Server.",
+            "kofi": "Jemand, der auf Ko-Fi gespendet hat.",
+            "donator": "Jemand, der 5 € oder mehr gespendet hat.",
+            "translator": "Jemand, der zu den Sprachen beigetragen hat.",
+            "friend": "Ein Freund meines Herstellers."
+        }
+    },
+    "botinfo": {
+        "requester": "Angefordert von: {PERSON}",
+        "choose": "**Wählen Sie das gewünschte Menü!**",
+        "title": {
+            "title": "🏠 • Botinfo Menü",
+            "menu": "Botinfo Menü",
+            "botinfo": "Botinfo",
+            "specs": "Spezifikationen",
+            "uptime": "Betriebszeit"
+        },
+        "bi": {
+            "title": "🤖 • Botinfo",
+            "name": "Bot Name:",
+            "version": "Ausführung:",
+            "createdOn": "Gemacht auf:",
+            "id": "ID:",
+            "prefix": "Präfix:",
+            "creator": "Hersteller:"
+        },
+        "specs": {
+            "title": "🛠 • Spezifikationen",
+            "mem": "Mem Verwendung:",
+            "users": "Benutzer:",
+            "servers": "Servers:",
+            "cpu": "CPU Verwendung:",
+            "arch": "Arch:",
+            "platform": "Plattform:"
+        },
+        "uptime": {
+            "title": "⏱ • Betriebszeit",
+            "desc": "Aktuelle Betriebszeit"
+        },
+        "time": "Entschuldigung, Ihre Zeit ist abgelaufen! (2m)"
+    },
+    "biome": {
+        "err": {
+            "noBiome": "Dieses Biom existiert nicht!",
+            "noBiomeGiven": "Kein Biom vorhanden!"
+        },
+        "title": "Biom | {biome}",
+        "id": "ID:",
+        "rainfall": "Regenfall:",
+        "temperature": "Temperatur:",
+        "listTitle": "Biome-Liste"
+    },
+    "block": {
+        "err": {
+            "noBlockGiven": "Kein Block gegeben!",
+            "noBlock": "Dieser Block existiert nicht!",
+            "listDesc": "Leider ist dieser Befehl aufgrund der großen Anzahl von Elementen (760+) nicht verfügbar ..., **IS JETZT**. Vielleicht in der Zukunft!"
+        },
+        "title": "Block | {Block}",
+        "listTitle": "Block-Liste",
+        "id": "ID:",
+        "hardness": "Härte:",
+        "stackSize": "Stapelgrösse:",
+        "material": "Material:",
+        "transparant": "Transparent:",
+        "filterLight": "Gefiltertes Licht:",
+        "emitLight": "Emittiertes Licht:",
+        "boundingBox": "Beiliegender Rahmen:",
+        "diggable": "Chopable:",
+        "harvestTools": "Werkzeuge:"
+    },
+    "colors": {
+        "err": {
+            "noColorGiven": "Keine Farbe angegeben!",
+            "noValidColor": "Diese Farbe existiert nicht!"
+        },
+        "title": "Farbe | {color}",
+        "chatCode": "Chat-Code:",
+        "motdCode": "MOTD-Code:",
+        "hexCode": "Hex-Code:",
+        "list": "Farbliste"
+    },
+    "data": {
+        "title": "Dateninformationen",
+        "info": [
+            "**Breite:** Die Breite einer Entität.",
+            "**Kategorie:** Die Kategorie eines Artikels.",
+            "**Effektive Qualität:** Die effektive Qualität von Lebensmitteln.",
+            "**Gefiltertes Licht:** Die Menge an Licht, die gefiltert wird.",
+            "**Zerhackbar:** Ob Sie einen Block weghacken können.",
+            "**Härte:** Die Härte eines Blocks.",
+            "**Höhe:** Die Höhe eines Objekts.",
+            "**ID:** Die eindeutige Kennung für ein Biom.",
+            "**Lebensdauer:** Wie oft können Sie Werkzeuge verwenden (ohne Zauber).",
+            "**Material:** Das Material eines Blocks.",
+            "**Begrenzungsrahmen:** Der Begrenzungsrahmen eines Blocks.",
+            "**Niederschlag:** Die Regenmenge in einem Biom.",
+            "**Art:** Ob ein Effekt gut oder schlecht ist.",
+            "**Stapelgröße:** Wie viele Gegenstände können Sie in einem Steckplatz aufbewahren.",
+            "**Temperatur:** Ein Indikator für die Temperatur in einem Biom.",
+            "**Transparent:** Gibt an, ob ein Block transparent ist.",
+            "**Emittiertes Licht:** Die Menge an Licht, die emittiert wird.",
+            "**Sättigung:** Die Sättigung, die Sie durch Essen erhalten.",
+            "**Sättigungsverhältnis:** Das Sättigungsverhältnis von Lebensmitteln.",
+            "**Food Points:** Die Anzahl der Food Points, die Sie erhalten."
+        ]
+    },
+    "effect": {
+        "err": {
+            "noEffect": "Dieser Effekt existiert nicht!",
+            "noEffectGiven": "Kein Effekt gegeben!"
+        },
+        "title": "Wirkung | {effect}",
+        "name": "Name:",
+        "id": "ID:",
+        "type": "Art:",
+        "listTitle": "Effektliste"
+    },
+    "entity": {
+        "err": {
+            "noEntity": "Diese Entität existiert nicht!",
+            "noEntityGiven": "Keine Entität angegeben!"
+        },
+        "title": "Entität | {entity}",
+        "id": "ID:",
+        "width": "Breite",
+        "height": "Höhe",
+        "category": "Kategorie",
+        "listTitle": "Entitätsliste"
+    },
+    "food": {
+        "err": {
+            "noFood": "Dieses Essen gibt es nicht!",
+            "noFoodGiven": "Kein Essen zur Verfügung gestellt!"
+        },
+        "title": "Essen | {food}",
+        "id": "ID:",
+        "stackSize": "Stapelgrösse:",
+        "foodPoints": "Food Points:",
+        "saturation": "Verzadiging:",
+        "satRatio": "Sättigungsverhältnis:",
+        "effectiveQuality": "Effektive Qualität:",
+        "listTitle": "Lebensmittelliste"
+    },
+    "formatting": "Text formatieren",
+    "help": {
+        "title": "Hilfe",
+        "note": "_ [] = Obligatorisch, <> = Optional, / = Splitter, \"\" = Exaktes Argument_",
+        "desc": "Beschreibung:",
+        "cat": "Kategorie:",
+        "aliases": "Aliase:",
+        "usage": "Benutzen:",
+        "cooldown": "Abkühlen:",
+        "general": "Allgemeines:",
+        "info": "Die Info:",
+        "admin": "Administrator:",
+        "dev": "Entwickler:",
+        "profile": "Profil:",
+        "cmd": {
+            "general": {
+                "title": "Hilfe | {cmd}",
+                "err": "Dieser Befehl existiert nicht!"
+            },
+            "settings": "Die verfügbaren Einstellungen.",
+            "botinfo": "Informationen über mich.",
+            "help": "Bist du wirklich so dumm ..?",
+            "links": "Um die Links zu bekommen.",
+            "ping": "Wenn du meinen Ping wissen willst.",
+            "biome": "Informieren Sie sich über ein Biom.",
+            "block": "Informationen zu einem Block abrufen.",
+            "data": "Informieren Sie sich über die verwendeten Werte.",
+            "effect": "Informieren Sie sich über einen Effekt.",
+            "entity": "Informationen zu einer Entität abrufen.",
+            "food": "Informieren Sie sich über Lebensmittel.",
+            "instrument": "Informieren Sie sich über ein Instrument.",
+            "item": "Informationen zu einem Artikel abrufen.",
+            "serverinfo": "Informationen zu einem Minecraft-Server abrufen.",
+            "version": "Informationen zu einer Minecraft-Version erhalten.",
+            "head": "Zeigt den Kopf eines Minecraft-Spielers.",
+            "skin": "Zeigt die Haut eines Minecraft-Spielers.",
+            "history": "Zeigt die vorherigen Benutzernamen eines Minecraft-Spielers an.",
+            "color": "Zeigen Sie die Minecraft-Farben.",
+            "formatting": "Zeigen Sie die Formatcodes an.",
+            "uuid": "Holen Sie sich die UUID eines Minecraft-Spielers.",
+            "devhelp": "Bist du wirklich so dumm ..?",
+            "eval": "Bewerten Sie etwas.",
+            "blacklist": "Verhindert, dass Benutzer den Bot verwenden.",
+            "servers": "Alle Server anzeigen.",
+            "badge": "Zeige alle Abzeichen.",
+            "profile": "Zeigt Ihr Profil an.",
+            "link": "Verbinden Sie Ihren Minecraft-Namen.",
+            "unlink": "Trennen Sie Ihren Minecraft-Namen.",
+            "status": "Ruft den Status verschiedener Domains ab.",
+            "credits": "Besonderer Dank geht an diese Leute."
+        }
+    },
+    "history": {
+        "err": {
+            "noUser": "Dieser Benutzername existiert nicht!",
+            "noUserGiven": "Kein Minecraft-Name angegeben!",
+            "default": "Etwas ist schief gelaufen!",
+            "notLinked": "Sie haben Ihr Konto nicht verlinkt und keinen Benutzernamen angegeben!"
+        },
+        "title": "Mc Name Geschichte | {name}",
+        "ago": " vor",
+        "first": "Zuerst"
+    },
+    "instruments": {
+        "err": {
+            "noInstrumentGiven": "Kein Instrument vorhanden!",
+            "noInstrument": "Dieses Instrument existiert nicht!"
+        },
+        "title": "Instrument | {ins}",
+        "name": "Name:",
+        "id": "ID:",
+        "listTitle": "Instrumentenliste"
+    },
+    "item": {
+        "err": {
+            "noItem": "Dieser Artikel existiert nicht!",
+            "noItemGiven": "Kein Artikel enthalten!"
+        },
+        "title": "Artikel | {item}",
+        "id": "ID:",
+        "stacksize": "Stapelgrösse:",
+        "dura": "Lebensdauer:",
+        "listTitle": "Artikelliste",
+        "listDesc": "Leider ist dieser Befehl aufgrund der großen Anzahl von Elementen (950+) nicht verfügbar ..., **BIS JETZT**. Vielleicht in der Zukunft!"
+    },
+    "links": {
+        "title": "Links",
+        "invite": "Einladen",
+        "donate": "Spenden",
+        "support": "Hilfe",
+        "kofi": "Ko-fi",
+        "docs": "Dokumentation",
+        "click": "Klicken Sie [hier]({link})!"
+    },
+    "ping": {
+        "pending": "Belastung...",
+        "ping": "Ping"
+    },
+    "profile": {
+        "err": {
+            "none": "-",
+            "usage": "❌ {prefix}link",
+            "noNameGiven": "Kein Benutzer zugewiesen!",
+            "noValidName": "Kein gültiger Benutzername angegeben!",
+            "noLink": "Sie haben kein Minecraft-Konto verbunden!"
+        },
+        "title": "Profil | {name}",
+        "linkedUsername": "Konto:",
+        "linkedSince": "Verbunden seit:",
+        "badges": "Abzeichen:",
+        "link": "`{name}` ist mit Ihrem Konto verknüpft!",
+        "unlink": "`{name}` ist nicht mehr mit Ihrem Konto verknüpft!"
+    },
+    "server": {
+        "err": {
+            "noServerGiven": "Kein Standard-Server-Set und keine Server-IP angegeben!",
+            "noServer": "Kein Server mit der IP gefunden: **`{ip}`**"
+        },
+        "pending": "Erhalten Sie Daten von **`{ip}`**...",
+        "loading": "Belastung...",
+        "title": "Server | `{ip}`",
+        "port": "Tor:",
+        "version": "Ausführung:",
+        "online": "Online-Spieler:",
+        "max": "Maximale Spielerzahl:",
+        "protocol": "Protokoll:"
+    },
+    "skin": {
+        "err": {
+            "noUser": "Dieser Benutzername existiert nicht!",
+            "noUserGiven": "Kein Minecraft-Name angegeben!",
+            "default": "Etwas ist schief gelaufen!",
+            "notLinked": "Sie haben Ihr Konto nicht verlinkt und keinen Benutzernamen angegeben!"
+        },
+        "name": "Mc Skin | {name}",
+        "head": "Mc Head | {name}"
+    },
+    "uuid": {
+        "err": {
+            "noUser": "Kein Benutzername angegeben!",
+            "noValidUser": "Dieser Benutzername existiert nicht!",
+            "notLinked": "Sie haben Ihr Konto nicht verlinkt und keinen Benutzernamen angegeben!"
+        },
+        "title": "Nutzername > UUID",
+        "name": "Name:",
+        "id": "UUID:"
+    },
+    "version": {
+        "title": "Ausführung",
+        "current": "Aktuelle Version:",
+        "major": "Hauptversion:",
+        "version": "Version:",
+        "type": {
+            "mcVersion": "Mc Version:",
+            "major": "Hauptversion:",
+            "version": "Version:"
+        },
+        "err": {
+            "noValidVersion": "Diese Version existiert nicht!"
+        }
+    },
+    "dev": {
+        "badge": {
+            "err": {
+                "noUserGiven": "No user given!",
+                "noBadgeGiven": "No badgeID given!",
+                "noValidBadge": "This badge does not exist!",
+                "hasBadgeAlready": "This user has this badge already!",
+                "isBot": "Bot's can't have badges!"
+            },
+            "title": "Available Badges",
+            "add": "The {badge} badge has been added to {user}!",
+            "remove": "The {badge} badge has been removed from {user}!"
+        },
+        "blacklist": {
+            "err": {
+                "noUser": "No user given!",
+                "noValidUser": "No valid user given!",
+                "noId": "No userID given!",
+                "inDb": "This user is already on the blacklist since `{date}`!",
+                "notInDb": "This user isn't on the blacklist!"
+            },
+            "add": "{user} has been added to the blacklist!",
+            "remove": "{user} has been removed from the blacklist!",
+            "list": {
+                "title": "Blacklist"
+            },
+            "search": {
+                "title": "Blacklist | Search",
+                "user": "User:",
+                "id": "ID:",
+                "time": "Time:"
+            }
+        },
+        "eval": {
+            "err": {
+                "noCode": "No code given!",
+                "env": "Do you really think I'm that stupid..?"
+            },
+            "evaluatedFrom": "Evaluated From:",
+            "evaluated": "Evaluated"
+        }
+    }
+}
