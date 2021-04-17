@@ -216,10 +216,10 @@
         "title": "Food | {food}",
         "id": "ID:",
         "stackSize": "Stack Size:",
-        "foodPoints": "Food Points",
+        "foodPoints": "Food Points:",
         "saturation": "Saturation:",
         "satRatio": "Saturation Ratio:",
-        "effectiveQuality": "Effective Quality",
+        "effectiveQuality": "Effective Quality:",
         "listTitle": "Food List"
     },
     "formatting": "Text Formatting",

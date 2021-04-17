@@ -206,10 +206,10 @@
         "title": "Voedsel | {food}",
         "id": "ID:",
         "stackSize": "Stack Groote:",
-        "foodPoints": "Voedsel Punten",
+        "foodPoints": "Voedsel Punten:",
         "saturation": "Verzadiging:",
         "satRatio": "Verzadiging Verhouding:",
-        "effectiveQuality": "Effectieve Kwaliteit",
+        "effectiveQuality": "Effectieve Kwaliteit:",
         "listTitle": "Voedsel Lijst"
     },
     "formatting": "Tekst Formatteren",

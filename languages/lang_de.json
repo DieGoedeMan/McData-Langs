@@ -206,10 +206,10 @@
         "title": "Essen | {food}",
         "id": "ID:",
         "stackSize": "Stapelgrösse:",
-        "foodPoints": "Food Points",
+        "foodPoints": "Food Points:",
         "saturation": "Verzadiging:",
         "satRatio": "Sättigungsverhältnis:",
-        "effectiveQuality": "Effektive Qualität",
+        "effectiveQuality": "Effektive Qualität:",
         "listTitle": "Lebensmittelliste"
     },
     "formatting": "Text formatieren",
@@ -245,132 +245,132 @@
             "instrument": "Informieren Sie sich über ein Instrument.",
             "item": "Informationen zu einem Artikel abrufen.",
             "serverinfo": "Informationen zu einem Minecraft-Server abrufen.",
-            "version": "Krijg informatie over een Minecraft verie.",
-            "head": "Laat het hoofd van een Minecraft speler zien.",
-            "skin": "Laat de skin van een Minecraft speler zien.",
-            "history": "Laat de vorige gebruikersnamen van een Minecraft speler zien.",
-            "color": "Laat de Minecraft kleuren zien.",
-            "formatting": "Laat de opmaak codes zien.",
-            "uuid": "Verkrijg de UUID van een Minecraft speler.",
+            "version": "Informationen zu einer Minecraft-Version erhalten.",
+            "head": "Zeigt den Kopf eines Minecraft-Spielers.",
+            "skin": "Zeigt die Haut eines Minecraft-Spielers.",
+            "history": "Zeigt die vorherigen Benutzernamen eines Minecraft-Spielers an.",
+            "color": "Zeigen Sie die Minecraft-Farben.",
+            "formatting": "Zeigen Sie die Formatcodes an.",
+            "uuid": "Holen Sie sich die UUID eines Minecraft-Spielers.",
             "devhelp": "Bist du wirklich so dumm ..?",
-            "eval": "Evalueer iets.",
-            "blacklist": "Voorkomt dat gebruikers de bot gebruiken.",
-            "servers": "Laat alle servers zien.",
-            "badge": "Laat alle badges zien.",
-            "profile": "Weergeeft je profiel.",
-            "link": "Verbind je Minecraft naam.",
-            "unlink": "Verbreek de verbinding met je Minecraft naam.",
-            "status": "Verkrijg de status van diverse domeinen.",
-            "credits": "Speciale dank aan deze mensen."
+            "eval": "Bewerten Sie etwas.",
+            "blacklist": "Verhindert, dass Benutzer den Bot verwenden.",
+            "servers": "Alle Server anzeigen.",
+            "badge": "Zeige alle Abzeichen.",
+            "profile": "Zeigt Ihr Profil an.",
+            "link": "Verbinden Sie Ihren Minecraft-Namen.",
+            "unlink": "Trennen Sie Ihren Minecraft-Namen.",
+            "status": "Ruft den Status verschiedener Domains ab.",
+            "credits": "Besonderer Dank geht an diese Leute."
         }
     },
     "history": {
         "err": {
-            "noUser": "Dit gebruikersnaam bestaat niet!",
-            "noUserGiven": "Geen Minecraft naam meegegeven!",
-            "default": "Er ging iets fout!",
-            "notLinked": "Je hebt je account niet gelinked en geen gebruikersnaam meegegeven!"
+            "noUser": "Dieser Benutzername existiert nicht!",
+            "noUserGiven": "Kein Minecraft-Name angegeben!",
+            "default": "Etwas ist schief gelaufen!",
+            "notLinked": "Sie haben Ihr Konto nicht verlinkt und keinen Benutzernamen angegeben!"
         },
-        "title": "Mc Naam Geschiedenis | {name}",
-        "ago": " geleden",
-        "first": "Eerste"
+        "title": "Mc Name Geschichte | {name}",
+        "ago": " vor",
+        "first": "Zuerst"
     },
     "instruments": {
         "err": {
-            "noInstrumentGiven": "Geen instrument meegegeven!",
-            "noInstrument": "Dit instrument bestaat niet!"
+            "noInstrumentGiven": "Kein Instrument vorhanden!",
+            "noInstrument": "Dieses Instrument existiert nicht!"
         },
         "title": "Instrument | {ins}",
-        "name": "Naam:",
+        "name": "Name:",
         "id": "ID:",
-        "listTitle": "Instrumenten Lijst"
+        "listTitle": "Instrumentenliste"
     },
     "item": {
         "err": {
-            "noItem": "Dit item bestaat niet!",
-            "noItemGiven": "Geen item meegegeven!"
+            "noItem": "Dieser Artikel existiert nicht!",
+            "noItemGiven": "Kein Artikel enthalten!"
         },
-        "title": "Item | {item}",
+        "title": "Artikel | {item}",
         "id": "ID:",
-        "stacksize": "Stack Groote:",
-        "dura": "Levensduur:",
-        "listTitle": "Item Lijst",
-        "listDesc": "Helaas in verband met de enorme hoeveelheid items (950+), is dit command niet beschikbaar..., **TOT NU TOE**. Wellicht in de toekomst!"
+        "stacksize": "Stapelgrösse:",
+        "dura": "Lebensdauer:",
+        "listTitle": "Artikelliste",
+        "listDesc": "Leider ist dieser Befehl aufgrund der großen Anzahl von Elementen (950+) nicht verfügbar ..., **BIS JETZT**. Vielleicht in der Zukunft!"
     },
     "links": {
         "title": "Links",
-        "invite": "Invite",
-        "donate": "Doneer",
-        "support": "Hulp",
+        "invite": "Einladen",
+        "donate": "Spenden",
+        "support": "Hilfe",
         "kofi": "Ko-fi",
-        "docs": "Documentatie",
-        "click": "Klik [hier]({link})!"
+        "docs": "Dokumentation",
+        "click": "Klicken Sie [hier]({link})!"
     },
     "ping": {
-        "pending": "Laden...",
+        "pending": "Belastung...",
         "ping": "Ping"
     },
     "profile": {
         "err": {
             "none": "-",
             "usage": "❌ {prefix}link",
-            "noNameGiven": "Geen gebruiker meegegeven!",
-            "noValidName": "Geen geldige gebruikersnaam meegegeven!",
-            "noLink": "Je hebt geen Minecraft account verbonden!"
+            "noNameGiven": "Kein Benutzer zugewiesen!",
+            "noValidName": "Kein gültiger Benutzername angegeben!",
+            "noLink": "Sie haben kein Minecraft-Konto verbunden!"
         },
-        "title": "Profiel | {name}",
-        "linkedUsername": "Account:",
-        "linkedSince": "Verbonden sinds:",
-        "badges": "Badges:",
-        "link": "`{name}` is verbonden aan jouw account!",
-        "unlink": "`{name}` is niet meer verbonden aan jouw account!"
+        "title": "Profil | {name}",
+        "linkedUsername": "Konto:",
+        "linkedSince": "Verbunden seit:",
+        "badges": "Abzeichen:",
+        "link": "`{name}` ist mit Ihrem Konto verknüpft!",
+        "unlink": "`{name}` ist nicht mehr mit Ihrem Konto verknüpft!"
     },
     "server": {
         "err": {
-            "noServerGiven": "Geen standaard server ingesteld en geen server-ip meegegeven!",
-            "noServer": "Geen server gevonden met het IP: **`{ip}`**"
+            "noServerGiven": "Kein Standard-Server-Set und keine Server-IP angegeben!",
+            "noServer": "Kein Server mit der IP gefunden: **`{ip}`**"
         },
-        "pending": "Data verkrijgen van **`{ip}`**...",
-        "loading": "Laden...",
+        "pending": "Erhalten Sie Daten von **`{ip}`**...",
+        "loading": "Belastung...",
         "title": "Server | `{ip}`",
-        "port": "Poort:",
-        "version": "Versie:",
-        "online": "Online Spelers:",
-        "max": "Max Spelers:",
-        "protocol": "Protocol:"
+        "port": "Tor:",
+        "version": "Ausführung:",
+        "online": "Online-Spieler:",
+        "max": "Maximale Spielerzahl:",
+        "protocol": "Protokoll:"
     },
     "skin": {
         "err": {
-            "noUser": "Dit gebruikersnaam bestaat niet!",
-            "noUserGiven": "Geen Minecraft naam meegegeven!",
-            "default": "Er ging iets fout!",
-            "notLinked": "Je hebt je account niet gelinked en geen gebruikersnaam meegegeven!"
+            "noUser": "Dieser Benutzername existiert nicht!",
+            "noUserGiven": "Kein Minecraft-Name angegeben!",
+            "default": "Etwas ist schief gelaufen!",
+            "notLinked": "Sie haben Ihr Konto nicht verlinkt und keinen Benutzernamen angegeben!"
         },
         "name": "Mc Skin | {name}",
-        "head": "Mc Hoofd | {name}"
+        "head": "Mc Head | {name}"
     },
     "uuid": {
         "err": {
-            "noUser": "Geen gebruikersnaam meegegeven!",
-            "noValidUser": "Deze gebruikersnaam bestaat niet!",
-            "notLinked": "Je hebt je account niet gelinked en geen gebruikersnaam meegegeven!"
+            "noUser": "Kein Benutzername angegeben!",
+            "noValidUser": "Dieser Benutzername existiert nicht!",
+            "notLinked": "Sie haben Ihr Konto nicht verlinkt und keinen Benutzernamen angegeben!"
         },
-        "title": "Gebruikersnaam > UUID",
-        "name": "Naam:",
+        "title": "Nutzername > UUID",
+        "name": "Name:",
         "id": "UUID:"
     },
     "version": {
-        "title": "Versie",
-        "current": "Huidige Versie:",
-        "major": "Hoofdversie:",
-        "version": "Versie:",
+        "title": "Ausführung",
+        "current": "Aktuelle Version:",
+        "major": "Hauptversion:",
+        "version": "Version:",
         "type": {
-            "mcVersion": "Mc Versie:",
-            "major": "Hoofdversie:",
-            "version": "Versie:"
+            "mcVersion": "Mc Version:",
+            "major": "Hauptversion:",
+            "version": "Version:"
         },
         "err": {
-            "noValidVersion": "Deze versie bestaat niet!"
+            "noValidVersion": "Diese Version existiert nicht!"
         }
     },
     "dev": {
